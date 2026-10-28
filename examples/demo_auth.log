@@ -1,0 +1,724 @@
+2026-10-12T00:31:06.000000+00:00 web01 sshd[4278]: Invalid user test from 203.0.113.232 port 58430
+2026-10-12T00:31:08.000000+00:00 web01 sshd[4278]: Failed password for invalid user test from 203.0.113.232 port 58430 ssh2
+2026-10-12T00:31:09.000000+00:00 web01 sshd[4278]: Connection closed by invalid user test 203.0.113.232 port 58430 [preauth]
+2026-10-12T00:31:13.000000+00:00 web01 sshd[4292]: Failed password for root from 203.0.113.232 port 31834 ssh2
+2026-10-12T00:31:16.000000+00:00 web01 sshd[4292]: Connection closed by authenticating user root 203.0.113.232 port 31834 [preauth]
+2026-10-12T00:31:20.000000+00:00 web01 sshd[4325]: Invalid user admin from 203.0.113.232 port 45763
+2026-10-12T00:31:22.000000+00:00 web01 sshd[4325]: Failed password for invalid user admin from 203.0.113.232 port 45763 ssh2
+2026-10-12T00:31:23.000000+00:00 web01 sshd[4325]: Connection closed by invalid user admin 203.0.113.232 port 45763 [preauth]
+2026-10-12T08:51:45.801710+00:00 web01 sshd[4165]: Accepted publickey for bob from 198.51.100.11 port 58776 ssh2: ED25519 SHA256:173WXvYpho2fE4FTgvtEDxvVsnu3eUwa7tYBfYLqHhD
+2026-10-12T08:51:45.801710+00:00 web01 sshd[4165]: pam_unix(sshd:session): session opened for user bob(uid=1000) by bob(uid=0)
+2026-10-12T09:22:45.801710+00:00 web01 sshd[4165]: Disconnected from user bob 198.51.100.11 port 58776
+2026-10-12T09:27:11.196997+00:00 web01 sshd[4129]: Accepted publickey for alice from 198.51.100.10 port 43192 ssh2: ED25519 SHA256:mwEnDqPhukd0WfofZVR1Mv0RFnVjh7XxeUpEHicLzXK
+2026-10-12T09:27:11.196997+00:00 web01 sshd[4129]: pam_unix(sshd:session): session opened for user alice(uid=1000) by alice(uid=0)
+2026-10-12T10:33:11.196997+00:00 web01 sshd[4129]: Disconnected from user alice 198.51.100.10 port 43192
+2026-10-12T11:26:49.900938+00:00 web01 sshd[4224]: Accepted publickey for bob from 198.51.100.11 port 60237 ssh2: ED25519 SHA256:suyDf8606u2mbbbbGgrbDNEPeLHXpDGAnKkGZqBE6Pq
+2026-10-12T11:26:49.900938+00:00 web01 sshd[4224]: pam_unix(sshd:session): session opened for user bob(uid=1000) by bob(uid=0)
+2026-10-12T12:18:49.900938+00:00 web01 sshd[4224]: Disconnected from user bob 198.51.100.11 port 60237
+2026-10-12T12:56:06.838487+00:00 web01 sshd[4269]: Accepted publickey for dave from 198.51.100.12 port 61646 ssh2: ED25519 SHA256:H9a1wzNg7Md1rXF2xbfbyFxLLJBKo8f2sKq3pgtYKmm
+2026-10-12T12:56:06.838487+00:00 web01 sshd[4269]: pam_unix(sshd:session): session opened for user dave(uid=1000) by dave(uid=0)
+2026-10-12T13:16:06.838487+00:00 web01 sshd[4269]: Disconnected from user dave 198.51.100.12 port 61646
+2026-10-12T13:25:35.345678+00:00 web01 sshd[4263]: Accepted publickey for carol from 198.51.100.140 port 60094 ssh2: ED25519 SHA256:21z5N2R3by2QNjhYxBB1TgSNvpYe2xYZFQGQgNXPgq8
+2026-10-12T13:25:35.345678+00:00 web01 sshd[4263]: pam_unix(sshd:session): session opened for user carol(uid=1000) by carol(uid=0)
+2026-10-12T14:22:05.631535+00:00 web01 sshd[4248]: Accepted publickey for carol from 198.51.100.140 port 55536 ssh2: ED25519 SHA256:HH5hfggVFKGyXySg4vLjBPjZKvk9BzjVs6Fv5SjZ9LY
+2026-10-12T14:22:05.631535+00:00 web01 sshd[4248]: pam_unix(sshd:session): session opened for user carol(uid=1000) by carol(uid=0)
+2026-10-12T14:47:35.345678+00:00 web01 sshd[4263]: Disconnected from user carol 198.51.100.140 port 60094
+2026-10-12T14:54:05.631535+00:00 web01 sshd[4248]: Disconnected from user carol 198.51.100.140 port 55536
+2026-10-12T15:36:22.259642+00:00 web01 sshd[4191]: Accepted publickey for bob from 198.51.100.11 port 52810 ssh2: ED25519 SHA256:96hFLebmT7J3d6mTwcYu7aQKFMKQtQAh4oMSUAKckZq
+2026-10-12T15:36:22.259642+00:00 web01 sshd[4191]: pam_unix(sshd:session): session opened for user bob(uid=1000) by bob(uid=0)
+2026-10-12T16:52:22.259642+00:00 web01 sshd[4191]: Disconnected from user bob 198.51.100.11 port 52810
+2026-10-12T17:16:03.050631+00:00 web01 sshd[4105]: Accepted publickey for alice from 198.51.100.10 port 57559 ssh2: ED25519 SHA256:GZoD9iPCFdcERFmdD3nHQrroDnobDQCm5JUcKkHnVm3
+2026-10-12T17:16:03.050631+00:00 web01 sshd[4105]: pam_unix(sshd:session): session opened for user alice(uid=1000) by alice(uid=0)
+2026-10-12T17:43:03.050631+00:00 web01 sshd[4105]: Disconnected from user alice 198.51.100.10 port 57559
+2026-10-12T21:21:05.000000+00:00 web01 sshd[4334]: Invalid user test from 203.0.113.171 port 33991
+2026-10-12T21:21:07.000000+00:00 web01 sshd[4334]: Failed password for invalid user test from 203.0.113.171 port 33991 ssh2
+2026-10-12T21:21:08.000000+00:00 web01 sshd[4334]: Connection closed by invalid user test 203.0.113.171 port 33991 [preauth]
+2026-10-12T21:21:12.000000+00:00 web01 sshd[4364]: Invalid user test from 203.0.113.171 port 63866
+2026-10-12T21:21:14.000000+00:00 web01 sshd[4364]: Failed password for invalid user test from 203.0.113.171 port 63866 ssh2
+2026-10-12T21:21:15.000000+00:00 web01 sshd[4364]: Connection closed by invalid user test 203.0.113.171 port 63866 [preauth]
+2026-10-13T00:25:36.000000+00:00 web01 sshd[4642]: Invalid user admin from 203.0.113.245 port 55749
+2026-10-13T00:25:38.000000+00:00 web01 sshd[4642]: Failed password for invalid user admin from 203.0.113.245 port 55749 ssh2
+2026-10-13T00:25:39.000000+00:00 web01 sshd[4642]: Connection closed by invalid user admin 203.0.113.245 port 55749 [preauth]
+2026-10-13T00:25:43.000000+00:00 web01 sshd[4647]: Failed password for admin from 203.0.113.245 port 53639 ssh2
+2026-10-13T00:25:46.000000+00:00 web01 sshd[4647]: Connection closed by authenticating user admin 203.0.113.245 port 53639 [preauth]
+2026-10-13T00:25:50.000000+00:00 web01 sshd[4651]: Failed password for admin from 203.0.113.245 port 48391 ssh2
+2026-10-13T00:25:53.000000+00:00 web01 sshd[4651]: Connection closed by authenticating user admin 203.0.113.245 port 48391 [preauth]
+2026-10-13T03:42:11.000000+00:00 web01 sshd[4661]: Failed password for admin from 203.0.113.136 port 46339 ssh2
+2026-10-13T03:42:14.000000+00:00 web01 sshd[4661]: Connection closed by authenticating user admin 203.0.113.136 port 46339 [preauth]
+2026-10-13T03:42:18.000000+00:00 web01 sshd[4682]: Invalid user admin from 203.0.113.136 port 42441
+2026-10-13T03:42:20.000000+00:00 web01 sshd[4682]: Failed password for invalid user admin from 203.0.113.136 port 42441 ssh2
+2026-10-13T03:42:21.000000+00:00 web01 sshd[4682]: Connection closed by invalid user admin 203.0.113.136 port 42441 [preauth]
+2026-10-13T03:42:25.000000+00:00 web01 sshd[4710]: Failed password for admin from 203.0.113.136 port 31901 ssh2
+2026-10-13T03:42:28.000000+00:00 web01 sshd[4710]: Connection closed by authenticating user admin 203.0.113.136 port 31901 [preauth]
+2026-10-13T08:30:35.497699+00:00 web01 sshd[4487]: Accepted publickey for carol from 198.51.100.140 port 56474 ssh2: ED25519 SHA256:sNRi0AFS3FKboCbBVVrQFoj5zKt8w17pazWxhKUxqsK
+2026-10-13T08:30:35.497699+00:00 web01 sshd[4487]: pam_unix(sshd:session): session opened for user carol(uid=1000) by carol(uid=0)
+2026-10-13T08:39:35.497699+00:00 web01 sshd[4487]: Disconnected from user carol 198.51.100.140 port 56474
+2026-10-13T09:21:01.781952+00:00 web01 sshd[4552]: Accepted publickey for dave from 198.51.100.12 port 48263 ssh2: ED25519 SHA256:2E5SRxzPQysfh5aEg9uU0CqrsNEpKXSsyvVqnJAgDhT
+2026-10-13T09:21:01.781952+00:00 web01 sshd[4552]: pam_unix(sshd:session): session opened for user dave(uid=1000) by dave(uid=0)
+2026-10-13T09:25:13.513397+00:00 web01 sshd[4571]: Accepted publickey for dave from 198.51.100.12 port 63228 ssh2: ED25519 SHA256:jUfff0H8mNVFgBUfE3ieTaP9PEoFKyjSZJp3riT7HwZ
+2026-10-13T09:25:13.513397+00:00 web01 sshd[4571]: pam_unix(sshd:session): session opened for user dave(uid=1000) by dave(uid=0)
+2026-10-13T09:58:13.513397+00:00 web01 sshd[4571]: Disconnected from user dave 198.51.100.12 port 63228
+2026-10-13T10:20:14.764248+00:00 web01 sshd[4469]: Accepted publickey for carol from 198.51.100.140 port 53261 ssh2: ED25519 SHA256:YD4JAEry7SdLDFt4a6itUpRvUCfMLTeASZXmWRC7VPY
+2026-10-13T10:20:14.764248+00:00 web01 sshd[4469]: pam_unix(sshd:session): session opened for user carol(uid=1000) by carol(uid=0)
+2026-10-13T10:47:14.764248+00:00 web01 sshd[4469]: Disconnected from user carol 198.51.100.140 port 53261
+2026-10-13T10:51:01.781952+00:00 web01 sshd[4552]: Disconnected from user dave 198.51.100.12 port 48263
+2026-10-13T12:36:00.530110+00:00 web01 sshd[4432]: Accepted publickey for alice from 198.51.100.10 port 46534 ssh2: ED25519 SHA256:vTeik2giRvj77Sm8N4eJcHbeWEtRdEPtV1H80KwstZK
+2026-10-13T12:36:00.530110+00:00 web01 sshd[4432]: pam_unix(sshd:session): session opened for user alice(uid=1000) by alice(uid=0)
+2026-10-13T13:12:00.530110+00:00 web01 sshd[4432]: Disconnected from user alice 198.51.100.10 port 46534
+2026-10-13T14:45:39.000000+00:00 web01 sshd[4628]: Invalid user root from 203.0.113.168 port 50714
+2026-10-13T14:45:41.000000+00:00 web01 sshd[4628]: Failed password for invalid user root from 203.0.113.168 port 50714 ssh2
+2026-10-13T14:45:42.000000+00:00 web01 sshd[4628]: Connection closed by invalid user root 203.0.113.168 port 50714 [preauth]
+2026-10-13T14:45:46.000000+00:00 web01 sshd[4629]: Failed password for root from 203.0.113.168 port 51269 ssh2
+2026-10-13T14:45:49.000000+00:00 web01 sshd[4629]: Connection closed by authenticating user root 203.0.113.168 port 51269 [preauth]
+2026-10-13T14:45:53.000000+00:00 web01 sshd[4637]: Failed password for admin from 203.0.113.168 port 42828 ssh2
+2026-10-13T14:45:56.000000+00:00 web01 sshd[4637]: Connection closed by authenticating user admin 203.0.113.168 port 42828 [preauth]
+2026-10-13T15:17:17.146074+00:00 web01 sshd[4521]: Accepted publickey for dave from 198.51.100.12 port 64669 ssh2: ED25519 SHA256:in432B3uo28wuvsQFBCJrZGa4emDrBrkuRhSAf2Eyi8
+2026-10-13T15:17:17.146074+00:00 web01 sshd[4521]: pam_unix(sshd:session): session opened for user dave(uid=1000) by dave(uid=0)
+2026-10-13T15:29:27.890857+00:00 web01 sshd[4456]: Accepted publickey for bob from 198.51.100.11 port 53302 ssh2: ED25519 SHA256:Kk9inhvWFTD2vMd8ETBrF2SFp5QES6HfAXmc9TqJCjw
+2026-10-13T15:29:27.890857+00:00 web01 sshd[4456]: pam_unix(sshd:session): session opened for user bob(uid=1000) by bob(uid=0)
+2026-10-13T16:03:27.890857+00:00 web01 sshd[4456]: Disconnected from user bob 198.51.100.11 port 53302
+2026-10-13T16:09:03.137115+00:00 web01 sshd[4399]: Accepted publickey for alice from 198.51.100.10 port 44975 ssh2: ED25519 SHA256:jiB6e0MpA02KMKgqxHmDWujjmg10G7mDRNTC0GiemBz
+2026-10-13T16:09:03.137115+00:00 web01 sshd[4399]: pam_unix(sshd:session): session opened for user alice(uid=1000) by alice(uid=0)
+2026-10-13T16:21:03.137115+00:00 web01 sshd[4399]: Disconnected from user alice 198.51.100.10 port 44975
+2026-10-13T16:29:17.146074+00:00 web01 sshd[4521]: Disconnected from user dave 198.51.100.12 port 64669
+2026-10-13T16:39:58.230254+00:00 web01 sshd[4439]: Accepted publickey for alice from 198.51.100.10 port 53050 ssh2: ED25519 SHA256:7hLt4QLwdibXcNYWFxZBXmfewBaXjqUiEH91Q7GFSTC
+2026-10-13T16:39:58.230254+00:00 web01 sshd[4439]: pam_unix(sshd:session): session opened for user alice(uid=1000) by alice(uid=0)
+2026-10-13T17:06:58.230254+00:00 web01 sshd[4439]: Disconnected from user alice 198.51.100.10 port 53050
+2026-10-13T17:10:39.274617+00:00 web01 sshd[4460]: Accepted publickey for bob from 198.51.100.11 port 45935 ssh2: ED25519 SHA256:NVrVjzPUeiuMTY2BSCABximNigReGt3sdthk47biVvP
+2026-10-13T17:10:39.274617+00:00 web01 sshd[4460]: pam_unix(sshd:session): session opened for user bob(uid=1000) by bob(uid=0)
+2026-10-13T17:41:59.000000+00:00 web01 sshd[4603]: Invalid user root from 203.0.113.180 port 59541
+2026-10-13T17:42:01.000000+00:00 web01 sshd[4603]: Failed password for invalid user root from 203.0.113.180 port 59541 ssh2
+2026-10-13T17:42:02.000000+00:00 web01 sshd[4603]: Connection closed by invalid user root 203.0.113.180 port 59541 [preauth]
+2026-10-13T17:43:39.274617+00:00 web01 sshd[4460]: Disconnected from user bob 198.51.100.11 port 45935
+2026-10-13T22:58:12.000000+00:00 web01 sshd[4716]: Invalid user test from 203.0.113.181 port 33242
+2026-10-13T22:58:14.000000+00:00 web01 sshd[4716]: Failed password for invalid user test from 203.0.113.181 port 33242 ssh2
+2026-10-13T22:58:15.000000+00:00 web01 sshd[4716]: Connection closed by invalid user test 203.0.113.181 port 33242 [preauth]
+2026-10-13T22:58:19.000000+00:00 web01 sshd[4725]: Invalid user test from 203.0.113.181 port 48756
+2026-10-13T22:58:21.000000+00:00 web01 sshd[4725]: Failed password for invalid user test from 203.0.113.181 port 48756 ssh2
+2026-10-13T22:58:22.000000+00:00 web01 sshd[4725]: Connection closed by invalid user test 203.0.113.181 port 48756 [preauth]
+2026-10-13T22:58:26.000000+00:00 web01 sshd[4761]: Invalid user admin from 203.0.113.181 port 38343
+2026-10-13T22:58:28.000000+00:00 web01 sshd[4761]: Failed password for invalid user admin from 203.0.113.181 port 38343 ssh2
+2026-10-13T22:58:29.000000+00:00 web01 sshd[4761]: Connection closed by invalid user admin 203.0.113.181 port 38343 [preauth]
+2026-10-14T06:18:20.000000+00:00 web01 sshd[5030]: Invalid user admin from 203.0.113.159 port 37940
+2026-10-14T06:18:22.000000+00:00 web01 sshd[5030]: Failed password for invalid user admin from 203.0.113.159 port 37940 ssh2
+2026-10-14T06:18:23.000000+00:00 web01 sshd[5030]: Connection closed by invalid user admin 203.0.113.159 port 37940 [preauth]
+2026-10-14T09:38:39.000000+00:00 web01 sshd[5014]: Invalid user root from 203.0.113.209 port 59292
+2026-10-14T09:38:41.000000+00:00 web01 sshd[5014]: Failed password for invalid user root from 203.0.113.209 port 59292 ssh2
+2026-10-14T09:38:42.000000+00:00 web01 sshd[5014]: Connection closed by invalid user root 203.0.113.209 port 59292 [preauth]
+2026-10-14T10:19:56.775033+00:00 web01 sshd[4917]: Accepted publickey for bob from 198.51.100.11 port 42209 ssh2: ED25519 SHA256:PhNV03NQfQSz7UGqhqM8Qhc9tDpKbDPBpKcDwDMbe8w
+2026-10-14T10:19:56.775033+00:00 web01 sshd[4917]: pam_unix(sshd:session): session opened for user bob(uid=1000) by bob(uid=0)
+2026-10-14T10:21:51.323368+00:00 web01 sshd[4805]: Failed password for alice from 198.51.100.10 port 55089 ssh2
+2026-10-14T10:21:54.323368+00:00 web01 sshd[4805]: Connection closed by authenticating user alice 198.51.100.10 port 55089 [preauth]
+2026-10-14T10:22:11.433988+00:00 web01 sshd[4839]: Accepted publickey for alice from 198.51.100.10 port 46881 ssh2: ED25519 SHA256:aTXzDhTnZJuijr165PFT8RabsedV536BJCdwz82gohA
+2026-10-14T10:22:11.433988+00:00 web01 sshd[4839]: pam_unix(sshd:session): session opened for user alice(uid=1000) by alice(uid=0)
+2026-10-14T10:35:11.433988+00:00 web01 sshd[4839]: Disconnected from user alice 198.51.100.10 port 46881
+2026-10-14T11:03:56.775033+00:00 web01 sshd[4917]: Disconnected from user bob 198.51.100.11 port 42209
+2026-10-14T11:52:09.031753+00:00 web01 sshd[4957]: Accepted publickey for dave from 198.51.100.12 port 48126 ssh2: ED25519 SHA256:2r0bCaCfE29DSNyE8pXZTXqCSywvWTVAxzp92rEB3QG
+2026-10-14T11:52:09.031753+00:00 web01 sshd[4957]: pam_unix(sshd:session): session opened for user dave(uid=1000) by dave(uid=0)
+2026-10-14T12:52:03.312236+00:00 web01 sshd[4778]: Accepted publickey for alice from 198.51.100.10 port 64216 ssh2: ED25519 SHA256:ysSbsRVgmtbHLsLEPi82hmQe9XzedJmNRFMXmFWRZS2
+2026-10-14T12:52:03.312236+00:00 web01 sshd[4778]: pam_unix(sshd:session): session opened for user alice(uid=1000) by alice(uid=0)
+2026-10-14T12:56:09.031753+00:00 web01 sshd[4957]: Disconnected from user dave 198.51.100.12 port 48126
+2026-10-14T14:08:03.312236+00:00 web01 sshd[4778]: Disconnected from user alice 198.51.100.10 port 64216
+2026-10-14T15:07:08.814068+00:00 web01 sshd[4982]: Accepted publickey for dave from 198.51.100.12 port 48226 ssh2: ED25519 SHA256:9d3hJhMA2yV3v0KpRW6WfZ11pFiNbzLRcEsCgmkWLd7
+2026-10-14T15:07:08.814068+00:00 web01 sshd[4982]: pam_unix(sshd:session): session opened for user dave(uid=1000) by dave(uid=0)
+2026-10-14T15:24:08.814068+00:00 web01 sshd[4982]: Disconnected from user dave 198.51.100.12 port 48226
+2026-10-14T17:06:16.553502+00:00 web01 sshd[4869]: Accepted publickey for bob from 198.51.100.11 port 54711 ssh2: ED25519 SHA256:R1GQKKjuG3xvs5z8fFm0CA1JQn9CswVJrSjrdvzHGEV
+2026-10-14T17:06:16.553502+00:00 web01 sshd[4869]: pam_unix(sshd:session): session opened for user bob(uid=1000) by bob(uid=0)
+2026-10-14T17:13:39.273554+00:00 web01 sshd[4884]: Accepted publickey for bob from 198.51.100.11 port 59695 ssh2: ED25519 SHA256:AAkVfTWs47RgjRmRBcwsVDBNh7uscFSQtdZQhCvXwcZ
+2026-10-14T17:13:39.273554+00:00 web01 sshd[4884]: pam_unix(sshd:session): session opened for user bob(uid=1000) by bob(uid=0)
+2026-10-14T17:43:37.345236+00:00 web01 sshd[4930]: Accepted publickey for carol from 198.51.100.140 port 46078 ssh2: ED25519 SHA256:sjyfCVtxa4ZXeLGAFTFYc7HmzPaY03V32dFDwgNZk9e
+2026-10-14T17:43:37.345236+00:00 web01 sshd[4930]: pam_unix(sshd:session): session opened for user carol(uid=1000) by carol(uid=0)
+2026-10-14T18:07:39.273554+00:00 web01 sshd[4884]: Disconnected from user bob 198.51.100.11 port 59695
+2026-10-14T18:11:37.345236+00:00 web01 sshd[4930]: Disconnected from user carol 198.51.100.140 port 46078
+2026-10-14T18:17:16.553502+00:00 web01 sshd[4869]: Disconnected from user bob 198.51.100.11 port 54711
+2026-10-15T05:26:10.000000+00:00 web01 sshd[5209]: Failed password for root from 203.0.113.187 port 56342 ssh2
+2026-10-15T05:26:13.000000+00:00 web01 sshd[5209]: Connection closed by authenticating user root 203.0.113.187 port 56342 [preauth]
+2026-10-15T08:50:26.169061+00:00 web01 sshd[5170]: Accepted publickey for carol from 198.51.100.140 port 62271 ssh2: ED25519 SHA256:W8aL11SH0jDr5Z6emjov78GSkr5by2ZSaZnKZXzFeQM
+2026-10-15T08:50:26.169061+00:00 web01 sshd[5170]: pam_unix(sshd:session): session opened for user carol(uid=1000) by carol(uid=0)
+2026-10-15T09:05:06.414498+00:00 web01 sshd[5088]: Accepted publickey for bob from 198.51.100.11 port 45064 ssh2: ED25519 SHA256:rkFsLbvTcUtVcDVyn7YccB602ZsNbxbPAd8LdH3Fbn7
+2026-10-15T09:05:06.414498+00:00 web01 sshd[5088]: pam_unix(sshd:session): session opened for user bob(uid=1000) by bob(uid=0)
+2026-10-15T09:37:14.000000+00:00 web01 sshd[5232]: Failed password for test from 203.0.113.131 port 59081 ssh2
+2026-10-15T09:37:17.000000+00:00 web01 sshd[5232]: Connection closed by authenticating user test 203.0.113.131 port 59081 [preauth]
+2026-10-15T09:55:06.414498+00:00 web01 sshd[5088]: Disconnected from user bob 198.51.100.11 port 45064
+2026-10-15T10:12:26.169061+00:00 web01 sshd[5170]: Disconnected from user carol 198.51.100.140 port 62271
+2026-10-15T11:13:02.391088+00:00 web01 sshd[5047]: Accepted publickey for alice from 198.51.100.10 port 64184 ssh2: ED25519 SHA256:SNeRMRRKU79oNWEbSRijQs2GsfCGAg73Q4e9ZC7UQHD
+2026-10-15T11:13:02.391088+00:00 web01 sshd[5047]: pam_unix(sshd:session): session opened for user alice(uid=1000) by alice(uid=0)
+2026-10-15T11:14:29.325134+00:00 web01 sshd[5191]: Accepted publickey for dave from 198.51.100.12 port 64020 ssh2: ED25519 SHA256:AyCQKUqrdciZ8DJhQqsCBDAnYVGjYkQcoVoJPZq4gLJ
+2026-10-15T11:14:29.325134+00:00 web01 sshd[5191]: pam_unix(sshd:session): session opened for user dave(uid=1000) by dave(uid=0)
+2026-10-15T11:19:29.325134+00:00 web01 sshd[5191]: Disconnected from user dave 198.51.100.12 port 64020
+2026-10-15T11:41:02.391088+00:00 web01 sshd[5047]: Disconnected from user alice 198.51.100.10 port 64184
+2026-10-15T12:06:00.528040+00:00 web01 sshd[5147]: Accepted publickey for carol from 198.51.100.140 port 45857 ssh2: ED25519 SHA256:BAqhfRezq03f4M2gbGEJYdZF2eiitCCrJFxW0xiFDzi
+2026-10-15T12:06:00.528040+00:00 web01 sshd[5147]: pam_unix(sshd:session): session opened for user carol(uid=1000) by carol(uid=0)
+2026-10-15T12:45:48.015554+00:00 web01 sshd[5092]: Accepted publickey for bob from 198.51.100.11 port 58073 ssh2: ED25519 SHA256:Ks29bFnqZyiLKYULjLEGahz212NVJ4C9gWDpraF8wqv
+2026-10-15T12:45:48.015554+00:00 web01 sshd[5092]: pam_unix(sshd:session): session opened for user bob(uid=1000) by bob(uid=0)
+2026-10-15T12:58:00.528040+00:00 web01 sshd[5147]: Disconnected from user carol 198.51.100.140 port 45857
+2026-10-15T13:09:48.015554+00:00 web01 sshd[5092]: Disconnected from user bob 198.51.100.11 port 58073
+2026-10-15T14:03:16.203593+00:00 web01 sshd[5052]: Accepted publickey for alice from 198.51.100.10 port 52197 ssh2: ED25519 SHA256:i6MepS00tAGrpwqYPCZXKCPSCpxs9P3A3WcuZMqVEPC
+2026-10-15T14:03:16.203593+00:00 web01 sshd[5052]: pam_unix(sshd:session): session opened for user alice(uid=1000) by alice(uid=0)
+2026-10-15T14:25:22.651221+00:00 web01 sshd[5118]: Accepted publickey for bob from 198.51.100.11 port 60143 ssh2: ED25519 SHA256:5N4gMnPCbjLaYHKRx38NC7m4zuCt4WHapfm5r0VscVo
+2026-10-15T14:25:22.651221+00:00 web01 sshd[5118]: pam_unix(sshd:session): session opened for user bob(uid=1000) by bob(uid=0)
+2026-10-15T14:32:16.027112+00:00 web01 sshd[5152]: Accepted publickey for carol from 198.51.100.140 port 60123 ssh2: ED25519 SHA256:xv3HNJ7hU291Lu1xQE4YqzSLW8qT83fKSi9gPoSqiRW
+2026-10-15T14:32:16.027112+00:00 web01 sshd[5152]: pam_unix(sshd:session): session opened for user carol(uid=1000) by carol(uid=0)
+2026-10-15T15:00:22.651221+00:00 web01 sshd[5118]: Disconnected from user bob 198.51.100.11 port 60143
+2026-10-15T15:10:16.203593+00:00 web01 sshd[5052]: Disconnected from user alice 198.51.100.10 port 52197
+2026-10-15T15:23:16.027112+00:00 web01 sshd[5152]: Disconnected from user carol 198.51.100.140 port 60123
+2026-10-15T21:54:49.000000+00:00 web01 sshd[5243]: Invalid user test from 203.0.113.249 port 30026
+2026-10-15T21:54:51.000000+00:00 web01 sshd[5243]: Failed password for invalid user test from 203.0.113.249 port 30026 ssh2
+2026-10-15T21:54:52.000000+00:00 web01 sshd[5243]: Connection closed by invalid user test 203.0.113.249 port 30026 [preauth]
+2026-10-15T21:54:56.000000+00:00 web01 sshd[5245]: Invalid user root from 203.0.113.249 port 56606
+2026-10-15T21:54:58.000000+00:00 web01 sshd[5245]: Failed password for invalid user root from 203.0.113.249 port 56606 ssh2
+2026-10-15T21:54:59.000000+00:00 web01 sshd[5245]: Connection closed by invalid user root 203.0.113.249 port 56606 [preauth]
+2026-10-15T21:55:03.000000+00:00 web01 sshd[5249]: Invalid user root from 203.0.113.249 port 36875
+2026-10-15T21:55:05.000000+00:00 web01 sshd[5249]: Failed password for invalid user root from 203.0.113.249 port 36875 ssh2
+2026-10-15T21:55:06.000000+00:00 web01 sshd[5249]: Connection closed by invalid user root 203.0.113.249 port 36875 [preauth]
+2026-10-16T06:58:29.000000+00:00 web01 sshd[5401]: Failed password for test from 203.0.113.164 port 40222 ssh2
+2026-10-16T06:58:32.000000+00:00 web01 sshd[5401]: Connection closed by authenticating user test 203.0.113.164 port 40222 [preauth]
+2026-10-16T06:58:36.000000+00:00 web01 sshd[5435]: Failed password for root from 203.0.113.164 port 52847 ssh2
+2026-10-16T06:58:39.000000+00:00 web01 sshd[5435]: Connection closed by authenticating user root 203.0.113.164 port 52847 [preauth]
+2026-10-16T09:34:57.000000+00:00 web01 sshd[5345]: Invalid user test from 203.0.113.184 port 60206
+2026-10-16T09:34:59.000000+00:00 web01 sshd[5345]: Failed password for invalid user test from 203.0.113.184 port 60206 ssh2
+2026-10-16T09:35:00.000000+00:00 web01 sshd[5345]: Connection closed by invalid user test 203.0.113.184 port 60206 [preauth]
+2026-10-16T09:35:04.000000+00:00 web01 sshd[5348]: Failed password for root from 203.0.113.184 port 52838 ssh2
+2026-10-16T09:35:07.000000+00:00 web01 sshd[5348]: Connection closed by authenticating user root 203.0.113.184 port 52838 [preauth]
+2026-10-16T09:35:11.000000+00:00 web01 sshd[5358]: Invalid user test from 203.0.113.184 port 59511
+2026-10-16T09:35:13.000000+00:00 web01 sshd[5358]: Failed password for invalid user test from 203.0.113.184 port 59511 ssh2
+2026-10-16T09:35:14.000000+00:00 web01 sshd[5358]: Connection closed by invalid user test 203.0.113.184 port 59511 [preauth]
+2026-10-16T10:24:10.036099+00:00 web01 sshd[5304]: Accepted publickey for carol from 198.51.100.140 port 64622 ssh2: ED25519 SHA256:rrUgGJG1zsPUWXdSBYSUDwzZ9W0pig5UqyB1cBdj0GY
+2026-10-16T10:24:10.036099+00:00 web01 sshd[5304]: pam_unix(sshd:session): session opened for user carol(uid=1000) by carol(uid=0)
+2026-10-16T10:57:37.457234+00:00 web01 sshd[5293]: Accepted publickey for bob from 198.51.100.11 port 48693 ssh2: ED25519 SHA256:Us8PF7iALS8R4yNLy9WN7aXpRa95r9vt4kgg4jvA5Bd
+2026-10-16T10:57:37.457234+00:00 web01 sshd[5293]: pam_unix(sshd:session): session opened for user bob(uid=1000) by bob(uid=0)
+2026-10-16T11:28:10.036099+00:00 web01 sshd[5304]: Disconnected from user carol 198.51.100.140 port 64622
+2026-10-16T11:30:37.457234+00:00 web01 sshd[5293]: Disconnected from user bob 198.51.100.11 port 48693
+2026-10-16T12:56:51.000000+00:00 web01 sshd[5316]: Failed password for admin from 203.0.113.142 port 57664 ssh2
+2026-10-16T12:56:54.000000+00:00 web01 sshd[5316]: Connection closed by authenticating user admin 203.0.113.142 port 57664 [preauth]
+2026-10-16T12:56:58.000000+00:00 web01 sshd[5330]: Invalid user test from 203.0.113.142 port 49866
+2026-10-16T12:57:00.000000+00:00 web01 sshd[5330]: Failed password for invalid user test from 203.0.113.142 port 49866 ssh2
+2026-10-16T12:57:01.000000+00:00 web01 sshd[5330]: Connection closed by invalid user test 203.0.113.142 port 49866 [preauth]
+2026-10-16T13:28:31.904123+00:00 web01 sshd[5310]: Accepted publickey for dave from 198.51.100.12 port 58826 ssh2: ED25519 SHA256:3ULdAjNUzzDAYhGhv13MhoY4iSnLU3PvQhLHr0Fh1vm
+2026-10-16T13:28:31.904123+00:00 web01 sshd[5310]: pam_unix(sshd:session): session opened for user dave(uid=1000) by dave(uid=0)
+2026-10-16T13:45:31.904123+00:00 web01 sshd[5310]: Disconnected from user dave 198.51.100.12 port 58826
+2026-10-16T14:10:00.206840+00:00 web01 sshd[5259]: Accepted publickey for alice from 198.51.100.10 port 53539 ssh2: ED25519 SHA256:Njpsissc3qMiVEVrD7x1gwkAa5dy9fFyseMQGSQsCHX
+2026-10-16T14:10:00.206840+00:00 web01 sshd[5259]: pam_unix(sshd:session): session opened for user alice(uid=1000) by alice(uid=0)
+2026-10-16T14:47:00.206840+00:00 web01 sshd[5259]: Disconnected from user alice 198.51.100.10 port 53539
+2026-10-16T15:48:00.613765+00:00 web01 sshd[5298]: Accepted publickey for carol from 198.51.100.140 port 58520 ssh2: ED25519 SHA256:9LKCBHGqLYKvBBCJvsrCvEyCE5ozZN33k8tE76z9waG
+2026-10-16T15:48:00.613765+00:00 web01 sshd[5298]: pam_unix(sshd:session): session opened for user carol(uid=1000) by carol(uid=0)
+2026-10-16T16:23:00.613765+00:00 web01 sshd[5298]: Disconnected from user carol 198.51.100.140 port 58520
+2026-10-16T20:09:39.000000+00:00 web01 sshd[5375]: Invalid user root from 203.0.113.224 port 45140
+2026-10-16T20:09:41.000000+00:00 web01 sshd[5375]: Failed password for invalid user root from 203.0.113.224 port 45140 ssh2
+2026-10-16T20:09:42.000000+00:00 web01 sshd[5375]: Connection closed by invalid user root 203.0.113.224 port 45140 [preauth]
+2026-10-16T20:09:46.000000+00:00 web01 sshd[5391]: Invalid user root from 203.0.113.224 port 63272
+2026-10-16T20:09:48.000000+00:00 web01 sshd[5391]: Failed password for invalid user root from 203.0.113.224 port 63272 ssh2
+2026-10-16T20:09:49.000000+00:00 web01 sshd[5391]: Connection closed by invalid user root 203.0.113.224 port 63272 [preauth]
+2026-10-17T08:36:00.000000+00:00 web01 sshd[5442]: Failed password for admin from 203.0.113.171 port 40787 ssh2
+2026-10-17T08:36:03.000000+00:00 web01 sshd[5442]: Connection closed by authenticating user admin 203.0.113.171 port 40787 [preauth]
+2026-10-17T10:49:41.000000+00:00 web01 sshd[5459]: Invalid user root from 203.0.113.185 port 48402
+2026-10-17T10:49:43.000000+00:00 web01 sshd[5459]: Failed password for invalid user root from 203.0.113.185 port 48402 ssh2
+2026-10-17T10:49:44.000000+00:00 web01 sshd[5459]: Connection closed by invalid user root 203.0.113.185 port 48402 [preauth]
+2026-10-17T10:49:48.000000+00:00 web01 sshd[5489]: Failed password for root from 203.0.113.185 port 32223 ssh2
+2026-10-17T10:49:51.000000+00:00 web01 sshd[5489]: Connection closed by authenticating user root 203.0.113.185 port 32223 [preauth]
+2026-10-17T23:57:12.000000+00:00 web01 sshd[5452]: Invalid user admin from 203.0.113.143 port 49798
+2026-10-17T23:57:14.000000+00:00 web01 sshd[5452]: Failed password for invalid user admin from 203.0.113.143 port 49798 ssh2
+2026-10-17T23:57:15.000000+00:00 web01 sshd[5452]: Connection closed by invalid user admin 203.0.113.143 port 49798 [preauth]
+2026-10-18T08:49:16.000000+00:00 web01 sshd[5561]: Failed password for test from 203.0.113.246 port 44979 ssh2
+2026-10-18T08:49:19.000000+00:00 web01 sshd[5561]: Connection closed by authenticating user test 203.0.113.246 port 44979 [preauth]
+2026-10-18T08:49:23.000000+00:00 web01 sshd[5576]: Failed password for test from 203.0.113.246 port 41895 ssh2
+2026-10-18T08:49:26.000000+00:00 web01 sshd[5576]: Connection closed by authenticating user test 203.0.113.246 port 41895 [preauth]
+2026-10-18T14:31:40.000000+00:00 web01 sshd[5508]: Invalid user test from 203.0.113.239 port 60361
+2026-10-18T14:31:42.000000+00:00 web01 sshd[5508]: Failed password for invalid user test from 203.0.113.239 port 60361 ssh2
+2026-10-18T14:31:43.000000+00:00 web01 sshd[5508]: Connection closed by invalid user test 203.0.113.239 port 60361 [preauth]
+2026-10-18T14:31:47.000000+00:00 web01 sshd[5534]: Invalid user root from 203.0.113.239 port 30361
+2026-10-18T14:31:49.000000+00:00 web01 sshd[5534]: Failed password for invalid user root from 203.0.113.239 port 30361 ssh2
+2026-10-18T14:31:50.000000+00:00 web01 sshd[5534]: Connection closed by invalid user root 203.0.113.239 port 30361 [preauth]
+2026-10-19T03:01:09.000000+00:00 web01 sshd[5771]: Failed password for root from 203.0.113.212 port 57983 ssh2
+2026-10-19T03:01:12.000000+00:00 web01 sshd[5771]: Connection closed by authenticating user root 203.0.113.212 port 57983 [preauth]
+2026-10-19T03:01:16.000000+00:00 web01 sshd[5779]: Invalid user root from 203.0.113.212 port 35776
+2026-10-19T03:01:18.000000+00:00 web01 sshd[5779]: Failed password for invalid user root from 203.0.113.212 port 35776 ssh2
+2026-10-19T03:01:19.000000+00:00 web01 sshd[5779]: Connection closed by invalid user root 203.0.113.212 port 35776 [preauth]
+2026-10-19T08:55:45.498129+00:00 web01 sshd[5697]: Accepted publickey for dave from 198.51.100.12 port 56411 ssh2: ED25519 SHA256:9kqaqKruvvp7uFPCtrfrzMGtM6Cc0G9sAZ63J1VmwS6
+2026-10-19T08:55:45.498129+00:00 web01 sshd[5697]: pam_unix(sshd:session): session opened for user dave(uid=1000) by dave(uid=0)
+2026-10-19T09:37:45.498129+00:00 web01 sshd[5697]: Disconnected from user dave 198.51.100.12 port 56411
+2026-10-19T09:58:59.729688+00:00 web01 sshd[5665]: Accepted publickey for carol from 198.51.100.140 port 56305 ssh2: ED25519 SHA256:tU4fZdcuEMrZrsBBqCuyX2Gighz8KCPwcrJXG6tZXg0
+2026-10-19T09:58:59.729688+00:00 web01 sshd[5665]: pam_unix(sshd:session): session opened for user carol(uid=1000) by carol(uid=0)
+2026-10-19T10:45:57.502844+00:00 web01 sshd[5622]: Accepted publickey for bob from 198.51.100.11 port 54040 ssh2: ED25519 SHA256:qrFt8ZKV5aDF3n8W1Jj4YroAtAPEsUSpGoK5QM0eY1K
+2026-10-19T10:45:57.502844+00:00 web01 sshd[5622]: pam_unix(sshd:session): session opened for user bob(uid=1000) by bob(uid=0)
+2026-10-19T11:09:59.729688+00:00 web01 sshd[5665]: Disconnected from user carol 198.51.100.140 port 56305
+2026-10-19T11:15:57.502844+00:00 web01 sshd[5622]: Disconnected from user bob 198.51.100.11 port 54040
+2026-10-19T12:41:54.658796+00:00 web01 sshd[5583]: Accepted publickey for alice from 198.51.100.10 port 53748 ssh2: ED25519 SHA256:R1bwwrLS5dgfBq5cjut6M8sW0Aa4h9GCSkPLw1NjYG5
+2026-10-19T12:41:54.658796+00:00 web01 sshd[5583]: pam_unix(sshd:session): session opened for user alice(uid=1000) by alice(uid=0)
+2026-10-19T12:46:28.974566+00:00 web01 sshd[5590]: Accepted publickey for bob from 198.51.100.11 port 60784 ssh2: ED25519 SHA256:NgsmxQ3KYtr4313cfUzmsJ04gY15QTwauSduMgA2x2T
+2026-10-19T12:46:28.974566+00:00 web01 sshd[5590]: pam_unix(sshd:session): session opened for user bob(uid=1000) by bob(uid=0)
+2026-10-19T13:30:16.537071+00:00 web01 sshd[5585]: Accepted publickey for bob from 198.51.100.11 port 60947 ssh2: ED25519 SHA256:14ZjXcyfPuMbizHxqYrDSTabDAEc9crvuYoSGQVybjQ
+2026-10-19T13:30:16.537071+00:00 web01 sshd[5585]: pam_unix(sshd:session): session opened for user bob(uid=1000) by bob(uid=0)
+2026-10-19T13:35:28.974566+00:00 web01 sshd[5590]: Disconnected from user bob 198.51.100.11 port 60784
+2026-10-19T13:37:32.297953+00:00 web01 sshd[5693]: Accepted publickey for carol from 198.51.100.140 port 51205 ssh2: ED25519 SHA256:dSmD3UUY3hbXiT6iYPsh1HXNWwVJorF1Cbxm7bknDbV
+2026-10-19T13:37:32.297953+00:00 web01 sshd[5693]: pam_unix(sshd:session): session opened for user carol(uid=1000) by carol(uid=0)
+2026-10-19T13:54:32.297953+00:00 web01 sshd[5693]: Disconnected from user carol 198.51.100.140 port 51205
+2026-10-19T13:58:54.658796+00:00 web01 sshd[5583]: Disconnected from user alice 198.51.100.10 port 53748
+2026-10-19T14:24:16.537071+00:00 web01 sshd[5585]: Disconnected from user bob 198.51.100.11 port 60947
+2026-10-19T15:21:24.000000+00:00 web01 sshd[5701]: Invalid user root from 203.0.113.134 port 62621
+2026-10-19T15:21:26.000000+00:00 web01 sshd[5701]: Failed password for invalid user root from 203.0.113.134 port 62621 ssh2
+2026-10-19T15:21:27.000000+00:00 web01 sshd[5701]: Connection closed by invalid user root 203.0.113.134 port 62621 [preauth]
+2026-10-19T15:21:31.000000+00:00 web01 sshd[5709]: Failed password for test from 203.0.113.134 port 57595 ssh2
+2026-10-19T15:21:34.000000+00:00 web01 sshd[5709]: Connection closed by authenticating user test 203.0.113.134 port 57595 [preauth]
+2026-10-19T15:49:22.934423+00:00 web01 sshd[5628]: Accepted publickey for carol from 198.51.100.140 port 61904 ssh2: ED25519 SHA256:88m1r4VNhvPjFy4et7HmHScQ3JghmDgf8KvhRhLkp6y
+2026-10-19T15:49:22.934423+00:00 web01 sshd[5628]: pam_unix(sshd:session): session opened for user carol(uid=1000) by carol(uid=0)
+2026-10-19T15:53:22.934423+00:00 web01 sshd[5628]: Disconnected from user carol 198.51.100.140 port 61904
+2026-10-19T20:56:48.000000+00:00 web01 sshd[5734]: Invalid user admin from 203.0.113.219 port 40177
+2026-10-19T20:56:50.000000+00:00 web01 sshd[5734]: Failed password for invalid user admin from 203.0.113.219 port 40177 ssh2
+2026-10-19T20:56:51.000000+00:00 web01 sshd[5734]: Connection closed by invalid user admin 203.0.113.219 port 40177 [preauth]
+2026-10-19T20:56:55.000000+00:00 web01 sshd[5770]: Failed password for admin from 203.0.113.219 port 36687 ssh2
+2026-10-19T20:56:58.000000+00:00 web01 sshd[5770]: Connection closed by authenticating user admin 203.0.113.219 port 36687 [preauth]
+2026-10-20T06:22:59.000000+00:00 web01 sshd[6016]: Failed password for test from 203.0.113.156 port 50187 ssh2
+2026-10-20T06:23:02.000000+00:00 web01 sshd[6016]: Connection closed by authenticating user test 203.0.113.156 port 50187 [preauth]
+2026-10-20T07:09:43.000000+00:00 web01 sshd[6003]: Failed password for root from 203.0.113.206 port 47949 ssh2
+2026-10-20T07:09:46.000000+00:00 web01 sshd[6003]: Connection closed by authenticating user root 203.0.113.206 port 47949 [preauth]
+2026-10-20T07:21:54.000000+00:00 web01 sshd[6043]: Failed password for test from 203.0.113.131 port 33628 ssh2
+2026-10-20T07:21:57.000000+00:00 web01 sshd[6043]: Connection closed by authenticating user test 203.0.113.131 port 33628 [preauth]
+2026-10-20T09:33:21.059614+00:00 web01 sshd[5956]: Accepted publickey for dave from 198.51.100.12 port 58348 ssh2: ED25519 SHA256:g4UHSzNZdSRRGaUc8LD4xUKrBe2iXiJeA14jUMZdC9c
+2026-10-20T09:33:21.059614+00:00 web01 sshd[5956]: pam_unix(sshd:session): session opened for user dave(uid=1000) by dave(uid=0)
+2026-10-20T10:02:07.509952+00:00 web01 sshd[5801]: Accepted publickey for alice from 198.51.100.10 port 50363 ssh2: ED25519 SHA256:ZnxeguLK2HZsLr2cga01eT1znXUTDqsw23pX6pxA4Kp
+2026-10-20T10:02:07.509952+00:00 web01 sshd[5801]: pam_unix(sshd:session): session opened for user alice(uid=1000) by alice(uid=0)
+2026-10-20T10:04:21.059614+00:00 web01 sshd[5956]: Disconnected from user dave 198.51.100.12 port 58348
+2026-10-20T10:21:14.976982+00:00 web01 sshd[5841]: Accepted publickey for bob from 198.51.100.11 port 50140 ssh2: ED25519 SHA256:pDubfwPSozA1afkFk2Y0EQboj8S74jWgioNNPNFM2vU
+2026-10-20T10:21:14.976982+00:00 web01 sshd[5841]: pam_unix(sshd:session): session opened for user bob(uid=1000) by bob(uid=0)
+2026-10-20T10:21:32.087720+00:00 web01 sshd[5877]: Accepted publickey for carol from 198.51.100.140 port 41671 ssh2: ED25519 SHA256:CmZ6wfh598E6prbHwFSWnQsF9tibMe5LZRxQMCSYD8m
+2026-10-20T10:21:32.087720+00:00 web01 sshd[5877]: pam_unix(sshd:session): session opened for user carol(uid=1000) by carol(uid=0)
+2026-10-20T10:28:32.087720+00:00 web01 sshd[5877]: Disconnected from user carol 198.51.100.140 port 41671
+2026-10-20T10:45:07.509952+00:00 web01 sshd[5801]: Disconnected from user alice 198.51.100.10 port 50363
+2026-10-20T11:11:14.976982+00:00 web01 sshd[5841]: Disconnected from user bob 198.51.100.11 port 50140
+2026-10-20T13:50:42.817510+00:00 web01 sshd[5875]: Accepted publickey for bob from 198.51.100.11 port 44882 ssh2: ED25519 SHA256:RChZ6GZrf1FKWpBYTjpBGCP66nhonPS0TdGe0o3pJS4
+2026-10-20T13:50:42.817510+00:00 web01 sshd[5875]: pam_unix(sshd:session): session opened for user bob(uid=1000) by bob(uid=0)
+2026-10-20T13:58:42.817510+00:00 web01 sshd[5875]: Disconnected from user bob 198.51.100.11 port 44882
+2026-10-20T15:41:57.970918+00:00 web01 sshd[5942]: Accepted publickey for dave from 198.51.100.12 port 40712 ssh2: ED25519 SHA256:rEeXW3QgHrZKXQyDMwem7Ke6KTccRKBTn4UX2LShGWf
+2026-10-20T15:41:57.970918+00:00 web01 sshd[5942]: pam_unix(sshd:session): session opened for user dave(uid=1000) by dave(uid=0)
+2026-10-20T16:14:19.356204+00:00 web01 sshd[5910]: Failed password for carol from 198.51.100.140 port 61681 ssh2
+2026-10-20T16:14:22.356204+00:00 web01 sshd[5910]: Connection closed by authenticating user carol 198.51.100.140 port 61681 [preauth]
+2026-10-20T16:14:39.058476+00:00 web01 sshd[5917]: Accepted publickey for carol from 198.51.100.140 port 44744 ssh2: ED25519 SHA256:WzANuyVooezsGgWZSaHZgaLeR2K9u8Afw9N2CL4QEq6
+2026-10-20T16:14:39.058476+00:00 web01 sshd[5917]: pam_unix(sshd:session): session opened for user carol(uid=1000) by carol(uid=0)
+2026-10-20T16:32:35.018640+00:00 web01 sshd[5797]: Accepted publickey for alice from 198.51.100.10 port 63571 ssh2: ED25519 SHA256:nRexyMDZ0ywv5KxzFUrmwhft7S9DwCADA7su3qFaVVx
+2026-10-20T16:32:35.018640+00:00 web01 sshd[5797]: pam_unix(sshd:session): session opened for user alice(uid=1000) by alice(uid=0)
+2026-10-20T16:46:57.970918+00:00 web01 sshd[5942]: Disconnected from user dave 198.51.100.12 port 40712
+2026-10-20T17:05:39.058476+00:00 web01 sshd[5917]: Disconnected from user carol 198.51.100.140 port 44744
+2026-10-20T17:31:53.406172+00:00 web01 sshd[5826]: Accepted publickey for bob from 198.51.100.11 port 59719 ssh2: ED25519 SHA256:08Q2eUvAWSTdLo93z71CU4K276nKT522mu09hYkFkmh
+2026-10-20T17:31:53.406172+00:00 web01 sshd[5826]: pam_unix(sshd:session): session opened for user bob(uid=1000) by bob(uid=0)
+2026-10-20T17:52:35.018640+00:00 web01 sshd[5797]: Disconnected from user alice 198.51.100.10 port 63571
+2026-10-20T18:23:53.406172+00:00 web01 sshd[5826]: Disconnected from user bob 198.51.100.11 port 59719
+2026-10-20T20:48:06.000000+00:00 web01 sshd[5971]: Failed password for root from 203.0.113.153 port 41509 ssh2
+2026-10-20T20:48:09.000000+00:00 web01 sshd[5971]: Connection closed by authenticating user root 203.0.113.153 port 41509 [preauth]
+2026-10-21T06:12:56.000000+00:00 web01 sshd[6306]: Failed password for admin from 203.0.113.176 port 63593 ssh2
+2026-10-21T06:12:59.000000+00:00 web01 sshd[6306]: Connection closed by authenticating user admin 203.0.113.176 port 63593 [preauth]
+2026-10-21T06:13:03.000000+00:00 web01 sshd[6325]: Invalid user root from 203.0.113.176 port 52502
+2026-10-21T06:13:05.000000+00:00 web01 sshd[6325]: Failed password for invalid user root from 203.0.113.176 port 52502 ssh2
+2026-10-21T06:13:06.000000+00:00 web01 sshd[6325]: Connection closed by invalid user root 203.0.113.176 port 52502 [preauth]
+2026-10-21T08:56:19.521496+00:00 web01 sshd[6286]: Accepted publickey for dave from 198.51.100.12 port 57578 ssh2: ED25519 SHA256:0Vkqdj3jxudafYCpuYeAuEjQGcZibsmnK7Nchbe0q8o
+2026-10-21T08:56:19.521496+00:00 web01 sshd[6286]: pam_unix(sshd:session): session opened for user dave(uid=1000) by dave(uid=0)
+2026-10-21T09:37:12.596608+00:00 web01 sshd[6188]: Failed password for bob from 198.51.100.11 port 32583 ssh2
+2026-10-21T09:37:15.596608+00:00 web01 sshd[6188]: Connection closed by authenticating user bob 198.51.100.11 port 32583 [preauth]
+2026-10-21T09:37:32.301489+00:00 web01 sshd[6196]: Accepted publickey for bob from 198.51.100.11 port 50007 ssh2: ED25519 SHA256:YsLHDp9i8TFfokKeHiJ7U9cnUTRyFykU4fqvnQsaNmw
+2026-10-21T09:37:32.301489+00:00 web01 sshd[6196]: pam_unix(sshd:session): session opened for user bob(uid=1000) by bob(uid=0)
+2026-10-21T09:43:19.521496+00:00 web01 sshd[6286]: Disconnected from user dave 198.51.100.12 port 57578
+2026-10-21T10:27:32.301489+00:00 web01 sshd[6196]: Disconnected from user bob 198.51.100.11 port 50007
+2026-10-21T11:11:48.766452+00:00 web01 sshd[6107]: Accepted publickey for alice from 198.51.100.10 port 54628 ssh2: ED25519 SHA256:iBj2kJBRFQqMLGVSm3BBGvyNSB4prnfjRveGY6GwMCT
+2026-10-21T11:11:48.766452+00:00 web01 sshd[6107]: pam_unix(sshd:session): session opened for user alice(uid=1000) by alice(uid=0)
+2026-10-21T11:30:48.766452+00:00 web01 sshd[6107]: Disconnected from user alice 198.51.100.10 port 54628
+2026-10-21T11:36:02.906499+00:00 web01 sshd[6075]: Accepted publickey for alice from 198.51.100.10 port 42959 ssh2: ED25519 SHA256:Ac9zgJ6tTRMn4ZCLvZnp5AYjejEHYwR3469W0w6anz8
+2026-10-21T11:36:02.906499+00:00 web01 sshd[6075]: pam_unix(sshd:session): session opened for user alice(uid=1000) by alice(uid=0)
+2026-10-21T11:47:02.906499+00:00 web01 sshd[6075]: Disconnected from user alice 198.51.100.10 port 42959
+2026-10-21T13:03:56.293205+00:00 web01 sshd[6115]: Accepted publickey for bob from 198.51.100.11 port 43998 ssh2: ED25519 SHA256:Hb7JkoQ6QKtnfybL3Bravcp4pjCbD0ZXbR4Xwd4n29W
+2026-10-21T13:03:56.293205+00:00 web01 sshd[6115]: pam_unix(sshd:session): session opened for user bob(uid=1000) by bob(uid=0)
+2026-10-21T13:19:06.710577+00:00 web01 sshd[6237]: Accepted publickey for carol from 198.51.100.140 port 53656 ssh2: ED25519 SHA256:XtYJuNqq5T34jGy5yzgT1rwr9wJc6GAc0moHhbnKc51
+2026-10-21T13:19:06.710577+00:00 web01 sshd[6237]: pam_unix(sshd:session): session opened for user carol(uid=1000) by carol(uid=0)
+2026-10-21T13:58:06.710577+00:00 web01 sshd[6237]: Disconnected from user carol 198.51.100.140 port 53656
+2026-10-21T13:58:56.293205+00:00 web01 sshd[6115]: Disconnected from user bob 198.51.100.11 port 43998
+2026-10-21T16:20:06.101522+00:00 web01 sshd[6149]: Failed password for bob from 198.51.100.11 port 39609 ssh2
+2026-10-21T16:20:09.101522+00:00 web01 sshd[6149]: Connection closed by authenticating user bob 198.51.100.11 port 39609 [preauth]
+2026-10-21T16:20:26.713203+00:00 web01 sshd[6172]: Accepted publickey for bob from 198.51.100.11 port 48168 ssh2: ED25519 SHA256:6dtrAZGjMEWdNitBQJcb0frC277CC6sqT9uqTrk2CqG
+2026-10-21T16:20:26.713203+00:00 web01 sshd[6172]: pam_unix(sshd:session): session opened for user bob(uid=1000) by bob(uid=0)
+2026-10-21T16:34:22.397999+00:00 web01 sshd[6266]: Accepted publickey for carol from 198.51.100.140 port 62696 ssh2: ED25519 SHA256:fUxYUYbjmpasWA1y5haeVMkV2KdnaoQF39XW4p4RWPd
+2026-10-21T16:34:22.397999+00:00 web01 sshd[6266]: pam_unix(sshd:session): session opened for user carol(uid=1000) by carol(uid=0)
+2026-10-21T16:39:22.397999+00:00 web01 sshd[6266]: Disconnected from user carol 198.51.100.140 port 62696
+2026-10-21T16:44:57.501068+00:00 web01 sshd[6227]: Accepted publickey for carol from 198.51.100.140 port 50174 ssh2: ED25519 SHA256:BRXQNikaobAYL6RWmWhTU7PUD0BLmEp6YetDja4eYyz
+2026-10-21T16:44:57.501068+00:00 web01 sshd[6227]: pam_unix(sshd:session): session opened for user carol(uid=1000) by carol(uid=0)
+2026-10-21T16:56:26.713203+00:00 web01 sshd[6172]: Disconnected from user bob 198.51.100.11 port 48168
+2026-10-21T17:01:57.501068+00:00 web01 sshd[6227]: Disconnected from user carol 198.51.100.140 port 50174
+2026-10-21T18:31:39.000000+00:00 web01 sshd[6344]: Invalid user test from 203.0.113.243 port 63528
+2026-10-21T18:31:41.000000+00:00 web01 sshd[6344]: Failed password for invalid user test from 203.0.113.243 port 63528 ssh2
+2026-10-21T18:31:42.000000+00:00 web01 sshd[6344]: Connection closed by invalid user test 203.0.113.243 port 63528 [preauth]
+2026-10-21T18:31:46.000000+00:00 web01 sshd[6357]: Failed password for root from 203.0.113.243 port 57017 ssh2
+2026-10-21T18:31:49.000000+00:00 web01 sshd[6357]: Connection closed by authenticating user root 203.0.113.243 port 57017 [preauth]
+2026-10-22T02:09:43.000000+00:00 web01 sshd[6578]: Invalid user admin from 203.0.113.151 port 50352
+2026-10-22T02:09:45.000000+00:00 web01 sshd[6578]: Failed password for invalid user admin from 203.0.113.151 port 50352 ssh2
+2026-10-22T02:09:46.000000+00:00 web01 sshd[6578]: Connection closed by invalid user admin 203.0.113.151 port 50352 [preauth]
+2026-10-22T02:09:50.000000+00:00 web01 sshd[6610]: Invalid user root from 203.0.113.151 port 61639
+2026-10-22T02:09:52.000000+00:00 web01 sshd[6610]: Failed password for invalid user root from 203.0.113.151 port 61639 ssh2
+2026-10-22T02:09:53.000000+00:00 web01 sshd[6610]: Connection closed by invalid user root 203.0.113.151 port 61639 [preauth]
+2026-10-22T06:21:16.000000+00:00 web01 sshd[6565]: Invalid user test from 203.0.113.199 port 46363
+2026-10-22T06:21:18.000000+00:00 web01 sshd[6565]: Failed password for invalid user test from 203.0.113.199 port 46363 ssh2
+2026-10-22T06:21:19.000000+00:00 web01 sshd[6565]: Connection closed by invalid user test 203.0.113.199 port 46363 [preauth]
+2026-10-22T09:03:23.111799+00:00 web01 sshd[6380]: Accepted publickey for alice from 198.51.100.10 port 58673 ssh2: ED25519 SHA256:rrxCvcA1AVwvmA9Vb4GoAtBNMh0mnT6s8kiKnNcpHKL
+2026-10-22T09:03:23.111799+00:00 web01 sshd[6380]: pam_unix(sshd:session): session opened for user alice(uid=1000) by alice(uid=0)
+2026-10-22T09:07:47.844292+00:00 web01 sshd[6500]: Accepted publickey for carol from 198.51.100.140 port 64853 ssh2: ED25519 SHA256:VNEwVFQUJ3wbUYb59f0r7r66JTMBZu2tvY8cBtwvfR5
+2026-10-22T09:07:47.844292+00:00 web01 sshd[6500]: pam_unix(sshd:session): session opened for user carol(uid=1000) by carol(uid=0)
+2026-10-22T10:02:47.844292+00:00 web01 sshd[6500]: Disconnected from user carol 198.51.100.140 port 64853
+2026-10-22T10:13:23.111799+00:00 web01 sshd[6380]: Disconnected from user alice 198.51.100.10 port 58673
+2026-10-22T10:36:08.137305+00:00 web01 sshd[6467]: Accepted publickey for carol from 198.51.100.140 port 59528 ssh2: ED25519 SHA256:8eoZkRbpiPJ6zHuiFk5Ty0zaBtwnKVAawFvM05QWNt8
+2026-10-22T10:36:08.137305+00:00 web01 sshd[6467]: pam_unix(sshd:session): session opened for user carol(uid=1000) by carol(uid=0)
+2026-10-22T10:48:02.670169+00:00 web01 sshd[6397]: Failed password for bob from 198.51.100.11 port 50630 ssh2
+2026-10-22T10:48:05.670169+00:00 web01 sshd[6397]: Connection closed by authenticating user bob 198.51.100.11 port 50630 [preauth]
+2026-10-22T10:48:22.006462+00:00 web01 sshd[6427]: Accepted publickey for bob from 198.51.100.11 port 49950 ssh2: ED25519 SHA256:cpS7hERuauwoQcVb7whB16RFMLYaMA7UbmZHXk6aXbs
+2026-10-22T10:48:22.006462+00:00 web01 sshd[6427]: pam_unix(sshd:session): session opened for user bob(uid=1000) by bob(uid=0)
+2026-10-22T10:53:08.137305+00:00 web01 sshd[6467]: Disconnected from user carol 198.51.100.140 port 59528
+2026-10-22T11:00:22.006462+00:00 web01 sshd[6427]: Disconnected from user bob 198.51.100.11 port 49950
+2026-10-22T15:31:31.104966+00:00 web01 sshd[6385]: Accepted publickey for alice from 198.51.100.10 port 45588 ssh2: ED25519 SHA256:jh3fqd22DsAu0oWKwRYTLCTrG58oEYNeqaBDQ7bozCe
+2026-10-22T15:31:31.104966+00:00 web01 sshd[6385]: pam_unix(sshd:session): session opened for user alice(uid=1000) by alice(uid=0)
+2026-10-22T15:41:31.104966+00:00 web01 sshd[6385]: Disconnected from user alice 198.51.100.10 port 45588
+2026-10-22T16:50:05.613546+00:00 web01 sshd[6512]: Accepted publickey for dave from 198.51.100.12 port 48010 ssh2: ED25519 SHA256:uHC1WP09Yy9Fcvybyq4QTjFYdeXviyv44rreiDuvPdu
+2026-10-22T16:50:05.613546+00:00 web01 sshd[6512]: pam_unix(sshd:session): session opened for user dave(uid=1000) by dave(uid=0)
+2026-10-22T16:52:51.305635+00:00 web01 sshd[6508]: Accepted publickey for dave from 198.51.100.12 port 48876 ssh2: ED25519 SHA256:9pxQwuCbCpLdNzVKayCmVrrMn4QnhwjSdtunYAH4z0s
+2026-10-22T16:52:51.305635+00:00 web01 sshd[6508]: pam_unix(sshd:session): session opened for user dave(uid=1000) by dave(uid=0)
+2026-10-22T17:23:28.957343+00:00 web01 sshd[6450]: Accepted publickey for bob from 198.51.100.11 port 58148 ssh2: ED25519 SHA256:RaNfUYRdCTtBX2KRwJFNTk41Jmef412RLZYPxbaroPV
+2026-10-22T17:23:28.957343+00:00 web01 sshd[6450]: pam_unix(sshd:session): session opened for user bob(uid=1000) by bob(uid=0)
+2026-10-22T17:32:51.305635+00:00 web01 sshd[6508]: Disconnected from user dave 198.51.100.12 port 48876
+2026-10-22T17:49:21.000000+00:00 web01 sshd[6548]: Failed password for root from 203.0.113.227 port 47117 ssh2
+2026-10-22T17:49:24.000000+00:00 web01 sshd[6548]: Connection closed by authenticating user root 203.0.113.227 port 47117 [preauth]
+2026-10-22T17:59:05.613546+00:00 web01 sshd[6512]: Disconnected from user dave 198.51.100.12 port 48010
+2026-10-22T18:27:28.957343+00:00 web01 sshd[6450]: Disconnected from user bob 198.51.100.11 port 58148
+2026-10-23T00:44:48.000000+00:00 web01 sshd[6961]: Invalid user test from 203.0.113.161 port 39414
+2026-10-23T00:44:50.000000+00:00 web01 sshd[6961]: Failed password for invalid user test from 203.0.113.161 port 39414 ssh2
+2026-10-23T00:44:51.000000+00:00 web01 sshd[6961]: Connection closed by invalid user test 203.0.113.161 port 39414 [preauth]
+2026-10-23T00:44:55.000000+00:00 web01 sshd[6966]: Invalid user admin from 203.0.113.161 port 62768
+2026-10-23T00:44:57.000000+00:00 web01 sshd[6966]: Failed password for invalid user admin from 203.0.113.161 port 62768 ssh2
+2026-10-23T00:44:58.000000+00:00 web01 sshd[6966]: Connection closed by invalid user admin 203.0.113.161 port 62768 [preauth]
+2026-10-23T08:20:42.000000+00:00 web01 sshd[6875]: Invalid user test from 203.0.113.241 port 64620
+2026-10-23T08:20:44.000000+00:00 web01 sshd[6875]: Failed password for invalid user test from 203.0.113.241 port 64620 ssh2
+2026-10-23T08:20:45.000000+00:00 web01 sshd[6875]: Connection closed by invalid user test 203.0.113.241 port 64620 [preauth]
+2026-10-23T08:20:49.000000+00:00 web01 sshd[6884]: Invalid user root from 203.0.113.241 port 32861
+2026-10-23T08:20:51.000000+00:00 web01 sshd[6884]: Failed password for invalid user root from 203.0.113.241 port 32861 ssh2
+2026-10-23T08:20:52.000000+00:00 web01 sshd[6884]: Connection closed by invalid user root 203.0.113.241 port 32861 [preauth]
+2026-10-23T08:20:56.000000+00:00 web01 sshd[6908]: Invalid user root from 203.0.113.241 port 60655
+2026-10-23T08:20:58.000000+00:00 web01 sshd[6908]: Failed password for invalid user root from 203.0.113.241 port 60655 ssh2
+2026-10-23T08:20:59.000000+00:00 web01 sshd[6908]: Connection closed by invalid user root 203.0.113.241 port 60655 [preauth]
+2026-10-23T09:32:29.000000+00:00 web01 sshd[6975]: Failed password for test from 203.0.113.175 port 32235 ssh2
+2026-10-23T09:32:32.000000+00:00 web01 sshd[6975]: Connection closed by authenticating user test 203.0.113.175 port 32235 [preauth]
+2026-10-23T09:32:36.000000+00:00 web01 sshd[6982]: Failed password for test from 203.0.113.175 port 43057 ssh2
+2026-10-23T09:32:39.000000+00:00 web01 sshd[6982]: Connection closed by authenticating user test 203.0.113.175 port 43057 [preauth]
+2026-10-23T09:32:42.086535+00:00 web01 sshd[6836]: Failed password for dave from 198.51.100.12 port 34833 ssh2
+2026-10-23T09:32:43.000000+00:00 web01 sshd[6989]: Failed password for admin from 203.0.113.175 port 53783 ssh2
+2026-10-23T09:32:45.086535+00:00 web01 sshd[6836]: Connection closed by authenticating user dave 198.51.100.12 port 34833 [preauth]
+2026-10-23T09:32:46.000000+00:00 web01 sshd[6989]: Connection closed by authenticating user admin 203.0.113.175 port 53783 [preauth]
+2026-10-23T09:33:02.839587+00:00 web01 sshd[6853]: Accepted publickey for dave from 198.51.100.12 port 46070 ssh2: ED25519 SHA256:KmU6uta4Ko7Skvz2TeABXKhig6C24CEMq3supb4gLv5
+2026-10-23T09:33:02.839587+00:00 web01 sshd[6853]: pam_unix(sshd:session): session opened for user dave(uid=1000) by dave(uid=0)
+2026-10-23T09:59:31.596834+00:00 web01 sshd[6686]: Accepted publickey for alice from 198.51.100.10 port 49486 ssh2: ED25519 SHA256:LmECAfzhFywXynSGshdhN1kWAY9FsUrqxsvSsRFJyBB
+2026-10-23T09:59:31.596834+00:00 web01 sshd[6686]: pam_unix(sshd:session): session opened for user alice(uid=1000) by alice(uid=0)
+2026-10-23T10:15:07.000000+00:00 web01 sshd[7009]: Failed password for root from 203.0.113.231 port 52380 ssh2
+2026-10-23T10:15:10.000000+00:00 web01 sshd[7009]: Connection closed by authenticating user root 203.0.113.231 port 52380 [preauth]
+2026-10-23T10:34:02.839587+00:00 web01 sshd[6853]: Disconnected from user dave 198.51.100.12 port 46070
+2026-10-23T10:53:31.596834+00:00 web01 sshd[6686]: Disconnected from user alice 198.51.100.10 port 49486
+2026-10-23T11:14:27.669097+00:00 web01 sshd[6720]: Accepted publickey for bob from 198.51.100.11 port 62350 ssh2: ED25519 SHA256:LG1x4VyqWaMs3YWQZJm9Z44SRDCGn2r93wb8DPhdhxL
+2026-10-23T11:14:27.669097+00:00 web01 sshd[6720]: pam_unix(sshd:session): session opened for user bob(uid=1000) by bob(uid=0)
+2026-10-23T11:56:27.669097+00:00 web01 sshd[6720]: Disconnected from user bob 198.51.100.11 port 62350
+2026-10-23T12:03:53.000000+00:00 web01 sshd[6929]: Failed password for admin from 203.0.113.203 port 30392 ssh2
+2026-10-23T12:03:56.000000+00:00 web01 sshd[6929]: Connection closed by authenticating user admin 203.0.113.203 port 30392 [preauth]
+2026-10-23T12:04:00.000000+00:00 web01 sshd[6951]: Failed password for admin from 203.0.113.203 port 44851 ssh2
+2026-10-23T12:04:03.000000+00:00 web01 sshd[6951]: Connection closed by authenticating user admin 203.0.113.203 port 44851 [preauth]
+2026-10-23T13:42:26.913073+00:00 web01 sshd[6828]: Accepted publickey for dave from 198.51.100.12 port 45505 ssh2: ED25519 SHA256:Zy4X2zyuA3SHRZiyjYxhC3pYGYmW2pHC9uRSYNveB4o
+2026-10-23T13:42:26.913073+00:00 web01 sshd[6828]: pam_unix(sshd:session): session opened for user dave(uid=1000) by dave(uid=0)
+2026-10-23T14:04:27.148780+00:00 web01 sshd[6735]: Accepted publickey for bob from 198.51.100.11 port 45362 ssh2: ED25519 SHA256:JerbFC5egNPxZAC4q541idKUEtDiwc7XEeAt3M8xLaU
+2026-10-23T14:04:27.148780+00:00 web01 sshd[6735]: pam_unix(sshd:session): session opened for user bob(uid=1000) by bob(uid=0)
+2026-10-23T14:08:27.148780+00:00 web01 sshd[6735]: Disconnected from user bob 198.51.100.11 port 45362
+2026-10-23T14:42:26.913073+00:00 web01 sshd[6828]: Disconnected from user dave 198.51.100.12 port 45505
+2026-10-23T14:47:07.140807+00:00 web01 sshd[6805]: Accepted publickey for carol from 198.51.100.140 port 58040 ssh2: ED25519 SHA256:iw4zHrxiGf4ubkLNng0FJZ0qDbRDZCAvpPfVHwJd97F
+2026-10-23T14:47:07.140807+00:00 web01 sshd[6805]: pam_unix(sshd:session): session opened for user carol(uid=1000) by carol(uid=0)
+2026-10-23T14:53:42.607200+00:00 web01 sshd[6772]: Accepted publickey for carol from 198.51.100.140 port 58182 ssh2: ED25519 SHA256:ocZjRnebSHQM7NmyHQ64SsGNjtSwhQmfQknvHyi9onF
+2026-10-23T14:53:42.607200+00:00 web01 sshd[6772]: pam_unix(sshd:session): session opened for user carol(uid=1000) by carol(uid=0)
+2026-10-23T15:01:17.182474+00:00 web01 sshd[6639]: Failed password for alice from 198.51.100.10 port 38722 ssh2
+2026-10-23T15:01:20.182474+00:00 web01 sshd[6639]: Connection closed by authenticating user alice 198.51.100.10 port 38722 [preauth]
+2026-10-23T15:01:37.981303+00:00 web01 sshd[6662]: Accepted publickey for alice from 198.51.100.10 port 62873 ssh2: ED25519 SHA256:VJ7wKonRXr3HmdzLutKpf40b4PHvUAZhPCD8TVNHvVe
+2026-10-23T15:01:37.981303+00:00 web01 sshd[6662]: pam_unix(sshd:session): session opened for user alice(uid=1000) by alice(uid=0)
+2026-10-23T15:19:37.981303+00:00 web01 sshd[6662]: Disconnected from user alice 198.51.100.10 port 62873
+2026-10-23T15:49:42.607200+00:00 web01 sshd[6772]: Disconnected from user carol 198.51.100.140 port 58182
+2026-10-23T15:56:18.595082+00:00 web01 sshd[6748]: Accepted publickey for carol from 198.51.100.140 port 55362 ssh2: ED25519 SHA256:FkWjfdk9r6KbpqF22DxuXptVnncZgtsJV6Xj7rB5NQu
+2026-10-23T15:56:18.595082+00:00 web01 sshd[6748]: pam_unix(sshd:session): session opened for user carol(uid=1000) by carol(uid=0)
+2026-10-23T16:10:07.140807+00:00 web01 sshd[6805]: Disconnected from user carol 198.51.100.140 port 58040
+2026-10-23T16:57:18.595082+00:00 web01 sshd[6748]: Disconnected from user carol 198.51.100.140 port 55362
+2026-10-24T11:04:36.000000+00:00 web01 sshd[7169]: Invalid user admin from 203.0.113.204 port 34439
+2026-10-24T11:04:38.000000+00:00 web01 sshd[7169]: Failed password for invalid user admin from 203.0.113.204 port 34439 ssh2
+2026-10-24T11:04:39.000000+00:00 web01 sshd[7169]: Connection closed by invalid user admin 203.0.113.204 port 34439 [preauth]
+2026-10-24T11:04:43.000000+00:00 web01 sshd[7181]: Invalid user admin from 203.0.113.204 port 48079
+2026-10-24T11:04:45.000000+00:00 web01 sshd[7181]: Failed password for invalid user admin from 203.0.113.204 port 48079 ssh2
+2026-10-24T11:04:46.000000+00:00 web01 sshd[7181]: Connection closed by invalid user admin 203.0.113.204 port 48079 [preauth]
+2026-10-24T12:42:55.000000+00:00 web01 sshd[7113]: Invalid user root from 203.0.113.149 port 56540
+2026-10-24T12:42:57.000000+00:00 web01 sshd[7113]: Failed password for invalid user root from 203.0.113.149 port 56540 ssh2
+2026-10-24T12:42:58.000000+00:00 web01 sshd[7113]: Connection closed by invalid user root 203.0.113.149 port 56540 [preauth]
+2026-10-24T16:13:14.000000+00:00 web01 sshd[7118]: Failed password for admin from 203.0.113.180 port 39425 ssh2
+2026-10-24T16:13:17.000000+00:00 web01 sshd[7118]: Connection closed by authenticating user admin 203.0.113.180 port 39425 [preauth]
+2026-10-24T16:13:21.000000+00:00 web01 sshd[7135]: Failed password for admin from 203.0.113.180 port 52312 ssh2
+2026-10-24T16:13:24.000000+00:00 web01 sshd[7135]: Connection closed by authenticating user admin 203.0.113.180 port 52312 [preauth]
+2026-10-24T16:13:28.000000+00:00 web01 sshd[7141]: Failed password for root from 203.0.113.180 port 41714 ssh2
+2026-10-24T16:13:31.000000+00:00 web01 sshd[7141]: Connection closed by authenticating user root 203.0.113.180 port 41714 [preauth]
+2026-10-24T18:31:43.000000+00:00 web01 sshd[7045]: Invalid user root from 203.0.113.239 port 56605
+2026-10-24T18:31:45.000000+00:00 web01 sshd[7045]: Failed password for invalid user root from 203.0.113.239 port 56605 ssh2
+2026-10-24T18:31:46.000000+00:00 web01 sshd[7045]: Connection closed by invalid user root 203.0.113.239 port 56605 [preauth]
+2026-10-24T18:31:50.000000+00:00 web01 sshd[7067]: Invalid user admin from 203.0.113.239 port 51181
+2026-10-24T18:31:52.000000+00:00 web01 sshd[7067]: Failed password for invalid user admin from 203.0.113.239 port 51181 ssh2
+2026-10-24T18:31:53.000000+00:00 web01 sshd[7067]: Connection closed by invalid user admin 203.0.113.239 port 51181 [preauth]
+2026-10-24T18:31:57.000000+00:00 web01 sshd[7083]: Failed password for admin from 203.0.113.239 port 45388 ssh2
+2026-10-24T18:32:00.000000+00:00 web01 sshd[7083]: Connection closed by authenticating user admin 203.0.113.239 port 45388 [preauth]
+2026-10-25T01:44:11.000000+00:00 web01 sshd[7202]: Failed password for root from 203.0.113.181 port 62893 ssh2
+2026-10-25T01:44:14.000000+00:00 web01 sshd[7202]: Connection closed by authenticating user root 203.0.113.181 port 62893 [preauth]
+2026-10-25T01:44:18.000000+00:00 web01 sshd[7218]: Invalid user test from 203.0.113.181 port 33722
+2026-10-25T01:44:20.000000+00:00 web01 sshd[7218]: Failed password for invalid user test from 203.0.113.181 port 33722 ssh2
+2026-10-25T01:44:21.000000+00:00 web01 sshd[7218]: Connection closed by invalid user test 203.0.113.181 port 33722 [preauth]
+2026-10-25T04:41:50.000000+00:00 web01 sshd[7255]: Invalid user root from 203.0.113.206 port 52358
+2026-10-25T04:41:52.000000+00:00 web01 sshd[7255]: Failed password for invalid user root from 203.0.113.206 port 52358 ssh2
+2026-10-25T04:41:53.000000+00:00 web01 sshd[7255]: Connection closed by invalid user root 203.0.113.206 port 52358 [preauth]
+2026-10-25T04:58:33.000000+00:00 web01 sshd[7256]: Failed password for admin from 203.0.113.130 port 51161 ssh2
+2026-10-25T04:58:36.000000+00:00 web01 sshd[7256]: Connection closed by authenticating user admin 203.0.113.130 port 51161 [preauth]
+2026-10-25T19:53:48.000000+00:00 web01 sshd[7183]: Invalid user test from 203.0.113.132 port 44307
+2026-10-25T19:53:50.000000+00:00 web01 sshd[7183]: Failed password for invalid user test from 203.0.113.132 port 44307 ssh2
+2026-10-25T19:53:51.000000+00:00 web01 sshd[7183]: Connection closed by invalid user test 203.0.113.132 port 44307 [preauth]
+2026-10-26T02:23:51.000000+00:00 web01 sshd[7519]: Failed password for admin from 203.0.113.248 port 41084 ssh2
+2026-10-26T02:23:54.000000+00:00 web01 sshd[7519]: Connection closed by authenticating user admin 203.0.113.248 port 41084 [preauth]
+2026-10-26T02:23:58.000000+00:00 web01 sshd[7531]: Invalid user admin from 203.0.113.248 port 39991
+2026-10-26T02:24:00.000000+00:00 web01 sshd[7531]: Failed password for invalid user admin from 203.0.113.248 port 39991 ssh2
+2026-10-26T02:24:01.000000+00:00 web01 sshd[7531]: Connection closed by invalid user admin 203.0.113.248 port 39991 [preauth]
+2026-10-26T02:24:05.000000+00:00 web01 sshd[7534]: Invalid user test from 203.0.113.248 port 51100
+2026-10-26T02:24:07.000000+00:00 web01 sshd[7534]: Failed password for invalid user test from 203.0.113.248 port 51100 ssh2
+2026-10-26T02:24:08.000000+00:00 web01 sshd[7534]: Connection closed by invalid user test 203.0.113.248 port 51100 [preauth]
+2026-10-26T02:37:16.000000+00:00 web01 sshd[7447]: Invalid user test from 203.0.113.210 port 47188
+2026-10-26T02:37:18.000000+00:00 web01 sshd[7447]: Failed password for invalid user test from 203.0.113.210 port 47188 ssh2
+2026-10-26T02:37:19.000000+00:00 web01 sshd[7447]: Connection closed by invalid user test 203.0.113.210 port 47188 [preauth]
+2026-10-26T02:37:23.000000+00:00 web01 sshd[7470]: Failed password for admin from 203.0.113.210 port 64212 ssh2
+2026-10-26T02:37:26.000000+00:00 web01 sshd[7470]: Connection closed by authenticating user admin 203.0.113.210 port 64212 [preauth]
+2026-10-26T02:37:30.000000+00:00 web01 sshd[7485]: Invalid user test from 203.0.113.210 port 39311
+2026-10-26T02:37:32.000000+00:00 web01 sshd[7485]: Failed password for invalid user test from 203.0.113.210 port 39311 ssh2
+2026-10-26T02:37:33.000000+00:00 web01 sshd[7485]: Connection closed by invalid user test 203.0.113.210 port 39311 [preauth]
+2026-10-26T10:27:47.785723+00:00 web01 sshd[7258]: Accepted publickey for alice from 198.51.100.10 port 61264 ssh2: ED25519 SHA256:hbqu2XMD6c1CFrqX0hpbSf6ABWnsWDcqwx4XLFBKPKj
+2026-10-26T10:27:47.785723+00:00 web01 sshd[7258]: pam_unix(sshd:session): session opened for user alice(uid=1000) by alice(uid=0)
+2026-10-26T10:42:47.785723+00:00 web01 sshd[7258]: Disconnected from user alice 198.51.100.10 port 61264
+2026-10-26T11:00:36.000000+00:00 web01 sshd[7604]: Invalid user root from 203.0.113.187 port 59242
+2026-10-26T11:00:38.000000+00:00 web01 sshd[7604]: Failed password for invalid user root from 203.0.113.187 port 59242 ssh2
+2026-10-26T11:00:39.000000+00:00 web01 sshd[7604]: Connection closed by invalid user root 203.0.113.187 port 59242 [preauth]
+2026-10-26T11:00:43.000000+00:00 web01 sshd[7635]: Invalid user test from 203.0.113.187 port 41436
+2026-10-26T11:00:45.000000+00:00 web01 sshd[7635]: Failed password for invalid user test from 203.0.113.187 port 41436 ssh2
+2026-10-26T11:00:46.000000+00:00 web01 sshd[7635]: Connection closed by invalid user test 203.0.113.187 port 41436 [preauth]
+2026-10-26T11:00:50.000000+00:00 web01 sshd[7644]: Invalid user test from 203.0.113.187 port 54046
+2026-10-26T11:00:52.000000+00:00 web01 sshd[7644]: Failed password for invalid user test from 203.0.113.187 port 54046 ssh2
+2026-10-26T11:00:53.000000+00:00 web01 sshd[7644]: Connection closed by invalid user test 203.0.113.187 port 54046 [preauth]
+2026-10-26T12:55:57.000000+00:00 web01 sshd[7430]: Failed password for admin from 203.0.113.221 port 51111 ssh2
+2026-10-26T12:56:00.000000+00:00 web01 sshd[7430]: Connection closed by authenticating user admin 203.0.113.221 port 51111 [preauth]
+2026-10-26T13:52:52.000000+00:00 web01 sshd[7551]: Invalid user root from 203.0.113.176 port 54585
+2026-10-26T13:52:54.000000+00:00 web01 sshd[7551]: Failed password for invalid user root from 203.0.113.176 port 54585 ssh2
+2026-10-26T13:52:55.000000+00:00 web01 sshd[7551]: Connection closed by invalid user root 203.0.113.176 port 54585 [preauth]
+2026-10-26T13:52:59.000000+00:00 web01 sshd[7585]: Invalid user root from 203.0.113.176 port 64167
+2026-10-26T13:53:01.000000+00:00 web01 sshd[7585]: Failed password for invalid user root from 203.0.113.176 port 64167 ssh2
+2026-10-26T13:53:02.000000+00:00 web01 sshd[7585]: Connection closed by invalid user root 203.0.113.176 port 64167 [preauth]
+2026-10-26T14:16:40.569661+00:00 web01 sshd[7327]: Accepted publickey for bob from 198.51.100.11 port 46715 ssh2: ED25519 SHA256:m0MSpZyK8M6y590LjBY0wRe6hPr9Y82afPW18BGtxAE
+2026-10-26T14:16:40.569661+00:00 web01 sshd[7327]: pam_unix(sshd:session): session opened for user bob(uid=1000) by bob(uid=0)
+2026-10-26T14:44:11.239197+00:00 web01 sshd[7364]: Accepted publickey for carol from 198.51.100.140 port 52320 ssh2: ED25519 SHA256:c99atr6QBSBSwdRQYPWzdsTV7hPn1Lg660TzJ3VUFXA
+2026-10-26T14:44:11.239197+00:00 web01 sshd[7364]: pam_unix(sshd:session): session opened for user carol(uid=1000) by carol(uid=0)
+2026-10-26T15:07:34.938450+00:00 web01 sshd[7396]: Accepted publickey for carol from 198.51.100.140 port 59178 ssh2: ED25519 SHA256:RN1rvACJipQndvGxBD8WE7HHhJjdAMQukKrykiHjY4h
+2026-10-26T15:07:34.938450+00:00 web01 sshd[7396]: pam_unix(sshd:session): session opened for user carol(uid=1000) by carol(uid=0)
+2026-10-26T15:20:34.938450+00:00 web01 sshd[7396]: Disconnected from user carol 198.51.100.140 port 59178
+2026-10-26T15:42:40.569661+00:00 web01 sshd[7327]: Disconnected from user bob 198.51.100.11 port 46715
+2026-10-26T15:50:11.239197+00:00 web01 sshd[7364]: Disconnected from user carol 198.51.100.140 port 52320
+2026-10-26T15:56:05.665824+00:00 web01 sshd[7412]: Accepted publickey for dave from 198.51.100.12 port 47834 ssh2: ED25519 SHA256:piSvqxaR3NtHF4q1C9wDbvmWusemtWfnAgys5giXoka
+2026-10-26T15:56:05.665824+00:00 web01 sshd[7412]: pam_unix(sshd:session): session opened for user dave(uid=1000) by dave(uid=0)
+2026-10-26T16:01:46.564826+00:00 web01 sshd[7294]: Accepted publickey for bob from 198.51.100.11 port 45026 ssh2: ED25519 SHA256:tpnXQyqS3wgzC0sVs0mwfmTZjjTJSAmgGs20ZKrQbzF
+2026-10-26T16:01:46.564826+00:00 web01 sshd[7294]: pam_unix(sshd:session): session opened for user bob(uid=1000) by bob(uid=0)
+2026-10-26T16:08:46.564826+00:00 web01 sshd[7294]: Disconnected from user bob 198.51.100.11 port 45026
+2026-10-26T16:30:05.665824+00:00 web01 sshd[7412]: Disconnected from user dave 198.51.100.12 port 47834
+2026-10-26T16:34:00.335301+00:00 web01 sshd[7393]: Accepted publickey for carol from 198.51.100.140 port 46949 ssh2: ED25519 SHA256:oD71P57yZC006eMd6JVuB2HK9AJ9VKiyYGzLfubFcXs
+2026-10-26T16:34:00.335301+00:00 web01 sshd[7393]: pam_unix(sshd:session): session opened for user carol(uid=1000) by carol(uid=0)
+2026-10-26T17:28:37.926054+00:00 web01 sshd[7411]: Accepted publickey for dave from 198.51.100.12 port 63966 ssh2: ED25519 SHA256:ETwMASTECNiDc1mZTAWvCsfkUmXvc6ywTbdWkcaKaza
+2026-10-26T17:28:37.926054+00:00 web01 sshd[7411]: pam_unix(sshd:session): session opened for user dave(uid=1000) by dave(uid=0)
+2026-10-26T18:03:00.335301+00:00 web01 sshd[7393]: Disconnected from user carol 198.51.100.140 port 46949
+2026-10-26T18:24:37.926054+00:00 web01 sshd[7411]: Disconnected from user dave 198.51.100.12 port 63966
+2026-10-27T02:10:00.000000+00:00 web01 sshd[7676]: Failed password for root from 203.0.113.50 port 64124 ssh2
+2026-10-27T02:10:03.000000+00:00 web01 sshd[7676]: Connection closed by authenticating user root 203.0.113.50 port 64124 [preauth]
+2026-10-27T02:10:09.000000+00:00 web01 sshd[7676]: message repeated 2 times: [ Failed password for root from 203.0.113.50 port 64124 ssh2]
+2026-10-27T02:10:13.000000+00:00 web01 sshd[7692]: Failed password for root from 203.0.113.50 port 54299 ssh2
+2026-10-27T02:10:16.000000+00:00 web01 sshd[7692]: Connection closed by authenticating user root 203.0.113.50 port 54299 [preauth]
+2026-10-27T02:10:26.000000+00:00 web01 sshd[7726]: Failed password for root from 203.0.113.50 port 52288 ssh2
+2026-10-27T02:10:29.000000+00:00 web01 sshd[7726]: Connection closed by authenticating user root 203.0.113.50 port 52288 [preauth]
+2026-10-27T02:10:39.000000+00:00 web01 sshd[7751]: Failed password for root from 203.0.113.50 port 46571 ssh2
+2026-10-27T02:10:42.000000+00:00 web01 sshd[7751]: Connection closed by authenticating user root 203.0.113.50 port 46571 [preauth]
+2026-10-27T02:10:52.000000+00:00 web01 sshd[7753]: Failed password for root from 203.0.113.50 port 43163 ssh2
+2026-10-27T02:10:55.000000+00:00 web01 sshd[7753]: Connection closed by authenticating user root 203.0.113.50 port 43163 [preauth]
+2026-10-27T02:11:01.000000+00:00 web01 sshd[7753]: message repeated 2 times: [ Failed password for root from 203.0.113.50 port 43163 ssh2]
+2026-10-27T02:11:05.000000+00:00 web01 sshd[7754]: Failed password for root from 203.0.113.50 port 47017 ssh2
+2026-10-27T02:11:08.000000+00:00 web01 sshd[7754]: Connection closed by authenticating user root 203.0.113.50 port 47017 [preauth]
+2026-10-27T02:11:18.000000+00:00 web01 sshd[7758]: Failed password for root from 203.0.113.50 port 41693 ssh2
+2026-10-27T02:11:21.000000+00:00 web01 sshd[7758]: Connection closed by authenticating user root 203.0.113.50 port 41693 [preauth]
+2026-10-27T02:11:31.000000+00:00 web01 sshd[7778]: Failed password for root from 203.0.113.50 port 47995 ssh2
+2026-10-27T02:11:34.000000+00:00 web01 sshd[7778]: Connection closed by authenticating user root 203.0.113.50 port 47995 [preauth]
+2026-10-27T02:11:44.000000+00:00 web01 sshd[7799]: Failed password for root from 203.0.113.50 port 46752 ssh2
+2026-10-27T02:11:47.000000+00:00 web01 sshd[7799]: Connection closed by authenticating user root 203.0.113.50 port 46752 [preauth]
+2026-10-27T02:11:53.000000+00:00 web01 sshd[7799]: message repeated 2 times: [ Failed password for root from 203.0.113.50 port 46752 ssh2]
+2026-10-27T02:11:57.000000+00:00 web01 sshd[7815]: Failed password for root from 203.0.113.50 port 47393 ssh2
+2026-10-27T02:12:00.000000+00:00 web01 sshd[7815]: Connection closed by authenticating user root 203.0.113.50 port 47393 [preauth]
+2026-10-27T02:12:10.000000+00:00 web01 sshd[7844]: Failed password for root from 203.0.113.50 port 35985 ssh2
+2026-10-27T02:12:13.000000+00:00 web01 sshd[7844]: Connection closed by authenticating user root 203.0.113.50 port 35985 [preauth]
+2026-10-27T02:12:23.000000+00:00 web01 sshd[7878]: Failed password for root from 203.0.113.50 port 62334 ssh2
+2026-10-27T02:12:26.000000+00:00 web01 sshd[7878]: Connection closed by authenticating user root 203.0.113.50 port 62334 [preauth]
+2026-10-27T02:12:36.000000+00:00 web01 sshd[7884]: Failed password for root from 203.0.113.50 port 43217 ssh2
+2026-10-27T02:12:39.000000+00:00 web01 sshd[7884]: Connection closed by authenticating user root 203.0.113.50 port 43217 [preauth]
+2026-10-27T02:12:45.000000+00:00 web01 sshd[7884]: message repeated 2 times: [ Failed password for root from 203.0.113.50 port 43217 ssh2]
+2026-10-27T02:12:49.000000+00:00 web01 sshd[7893]: Failed password for root from 203.0.113.50 port 57731 ssh2
+2026-10-27T02:12:52.000000+00:00 web01 sshd[7893]: Connection closed by authenticating user root 203.0.113.50 port 57731 [preauth]
+2026-10-27T02:13:02.000000+00:00 web01 sshd[7912]: Failed password for root from 203.0.113.50 port 54354 ssh2
+2026-10-27T02:13:05.000000+00:00 web01 sshd[7912]: Connection closed by authenticating user root 203.0.113.50 port 54354 [preauth]
+2026-10-27T02:13:15.000000+00:00 web01 sshd[7915]: Failed password for root from 203.0.113.50 port 59001 ssh2
+2026-10-27T02:13:18.000000+00:00 web01 sshd[7915]: Connection closed by authenticating user root 203.0.113.50 port 59001 [preauth]
+2026-10-27T02:13:28.000000+00:00 web01 sshd[7940]: Failed password for root from 203.0.113.50 port 54063 ssh2
+2026-10-27T02:13:31.000000+00:00 web01 sshd[7940]: Connection closed by authenticating user root 203.0.113.50 port 54063 [preauth]
+2026-10-27T02:13:37.000000+00:00 web01 sshd[7940]: message repeated 2 times: [ Failed password for root from 203.0.113.50 port 54063 ssh2]
+2026-10-27T02:13:41.000000+00:00 web01 sshd[7943]: Failed password for root from 203.0.113.50 port 49349 ssh2
+2026-10-27T02:13:44.000000+00:00 web01 sshd[7943]: Connection closed by authenticating user root 203.0.113.50 port 49349 [preauth]
+2026-10-27T03:41:00.000000+00:00 web01 sshd[8925]: Accepted publickey for bob from 198.51.100.11 port 41604 ssh2: ED25519 SHA256:J67E3phMAxmy2LhQuxuyU2Pk4LK09wPjGfGN1FDcQt4
+2026-10-27T03:41:00.000000+00:00 web01 sshd[8925]: pam_unix(sshd:session): session opened for user bob(uid=1000) by bob(uid=0)
+2026-10-27T04:00:00.000000+00:00 web01 sshd[7970]: Invalid user admin from 203.0.113.77 port 58243
+2026-10-27T04:00:02.000000+00:00 web01 sshd[7970]: Failed password for invalid user admin from 203.0.113.77 port 58243 ssh2
+2026-10-27T04:00:03.000000+00:00 web01 sshd[7970]: Connection closed by invalid user admin 203.0.113.77 port 58243 [preauth]
+2026-10-27T04:01:10.000000+00:00 web01 sshd[7987]: Invalid user test from 203.0.113.77 port 53091
+2026-10-27T04:01:12.000000+00:00 web01 sshd[7987]: Failed password for invalid user test from 203.0.113.77 port 53091 ssh2
+2026-10-27T04:01:13.000000+00:00 web01 sshd[7987]: Connection closed by invalid user test 203.0.113.77 port 53091 [preauth]
+2026-10-27T04:01:21.000000+00:00 web01 sshd[8003]: Invalid user test from 203.0.113.77 port 55254
+2026-10-27T04:01:23.000000+00:00 web01 sshd[8003]: Failed password for invalid user test from 203.0.113.77 port 55254 ssh2
+2026-10-27T04:01:24.000000+00:00 web01 sshd[8003]: Connection closed by invalid user test 203.0.113.77 port 55254 [preauth]
+2026-10-27T04:02:20.000000+00:00 web01 sshd[8012]: Invalid user oracle from 203.0.113.77 port 42557
+2026-10-27T04:02:22.000000+00:00 web01 sshd[8012]: Failed password for invalid user oracle from 203.0.113.77 port 42557 ssh2
+2026-10-27T04:02:23.000000+00:00 web01 sshd[8012]: Connection closed by invalid user oracle 203.0.113.77 port 42557 [preauth]
+2026-10-27T04:03:30.000000+00:00 web01 sshd[8036]: Invalid user postgres from 203.0.113.77 port 34152
+2026-10-27T04:03:32.000000+00:00 web01 sshd[8036]: Failed password for invalid user postgres from 203.0.113.77 port 34152 ssh2
+2026-10-27T04:03:33.000000+00:00 web01 sshd[8036]: Connection closed by invalid user postgres 203.0.113.77 port 34152 [preauth]
+2026-10-27T04:03:41.000000+00:00 web01 sshd[8050]: Invalid user postgres from 203.0.113.77 port 51590
+2026-10-27T04:03:43.000000+00:00 web01 sshd[8050]: Failed password for invalid user postgres from 203.0.113.77 port 51590 ssh2
+2026-10-27T04:03:44.000000+00:00 web01 sshd[8050]: Connection closed by invalid user postgres 203.0.113.77 port 51590 [preauth]
+2026-10-27T04:04:40.000000+00:00 web01 sshd[8055]: Invalid user ubuntu from 203.0.113.77 port 35238
+2026-10-27T04:04:42.000000+00:00 web01 sshd[8055]: Failed password for invalid user ubuntu from 203.0.113.77 port 35238 ssh2
+2026-10-27T04:04:43.000000+00:00 web01 sshd[8055]: Connection closed by invalid user ubuntu 203.0.113.77 port 35238 [preauth]
+2026-10-27T04:05:50.000000+00:00 web01 sshd[8084]: Invalid user guest from 203.0.113.77 port 54864
+2026-10-27T04:05:52.000000+00:00 web01 sshd[8084]: Failed password for invalid user guest from 203.0.113.77 port 54864 ssh2
+2026-10-27T04:05:53.000000+00:00 web01 sshd[8084]: Connection closed by invalid user guest 203.0.113.77 port 54864 [preauth]
+2026-10-27T04:06:01.000000+00:00 web01 sshd[8110]: Invalid user guest from 203.0.113.77 port 64459
+2026-10-27T04:06:03.000000+00:00 web01 sshd[8110]: Failed password for invalid user guest from 203.0.113.77 port 64459 ssh2
+2026-10-27T04:06:04.000000+00:00 web01 sshd[8110]: Connection closed by invalid user guest 203.0.113.77 port 64459 [preauth]
+2026-10-27T04:07:00.000000+00:00 web01 sshd[8137]: Invalid user support from 203.0.113.77 port 62545
+2026-10-27T04:07:02.000000+00:00 web01 sshd[8137]: Failed password for invalid user support from 203.0.113.77 port 62545 ssh2
+2026-10-27T04:07:03.000000+00:00 web01 sshd[8137]: Connection closed by invalid user support 203.0.113.77 port 62545 [preauth]
+2026-10-27T04:08:10.000000+00:00 web01 sshd[8139]: Invalid user ftpuser from 203.0.113.77 port 37065
+2026-10-27T04:08:12.000000+00:00 web01 sshd[8139]: Failed password for invalid user ftpuser from 203.0.113.77 port 37065 ssh2
+2026-10-27T04:08:13.000000+00:00 web01 sshd[8139]: Connection closed by invalid user ftpuser 203.0.113.77 port 37065 [preauth]
+2026-10-27T04:08:21.000000+00:00 web01 sshd[8176]: Invalid user ftpuser from 203.0.113.77 port 60313
+2026-10-27T04:08:23.000000+00:00 web01 sshd[8176]: Failed password for invalid user ftpuser from 203.0.113.77 port 60313 ssh2
+2026-10-27T04:08:24.000000+00:00 web01 sshd[8176]: Connection closed by invalid user ftpuser 203.0.113.77 port 60313 [preauth]
+2026-10-27T04:09:20.000000+00:00 web01 sshd[8206]: Invalid user mysql from 203.0.113.77 port 58581
+2026-10-27T04:09:22.000000+00:00 web01 sshd[8206]: Failed password for invalid user mysql from 203.0.113.77 port 58581 ssh2
+2026-10-27T04:09:23.000000+00:00 web01 sshd[8206]: Connection closed by invalid user mysql 203.0.113.77 port 58581 [preauth]
+2026-10-27T04:10:30.000000+00:00 web01 sshd[8233]: Invalid user jenkins from 203.0.113.77 port 61038
+2026-10-27T04:10:32.000000+00:00 web01 sshd[8233]: Failed password for invalid user jenkins from 203.0.113.77 port 61038 ssh2
+2026-10-27T04:10:33.000000+00:00 web01 sshd[8233]: Connection closed by invalid user jenkins 203.0.113.77 port 61038 [preauth]
+2026-10-27T04:10:41.000000+00:00 web01 sshd[8245]: Invalid user jenkins from 203.0.113.77 port 34266
+2026-10-27T04:10:43.000000+00:00 web01 sshd[8245]: Failed password for invalid user jenkins from 203.0.113.77 port 34266 ssh2
+2026-10-27T04:10:44.000000+00:00 web01 sshd[8245]: Connection closed by invalid user jenkins 203.0.113.77 port 34266 [preauth]
+2026-10-27T04:11:40.000000+00:00 web01 sshd[8274]: Failed password for alice from 203.0.113.77 port 56058 ssh2
+2026-10-27T04:11:43.000000+00:00 web01 sshd[8274]: Connection closed by authenticating user alice 203.0.113.77 port 56058 [preauth]
+2026-10-27T04:12:50.000000+00:00 web01 sshd[8306]: Failed password for bob from 203.0.113.77 port 38865 ssh2
+2026-10-27T04:12:53.000000+00:00 web01 sshd[8306]: Connection closed by authenticating user bob 203.0.113.77 port 38865 [preauth]
+2026-10-27T04:13:01.000000+00:00 web01 sshd[8339]: Failed password for bob from 203.0.113.77 port 30623 ssh2
+2026-10-27T04:13:04.000000+00:00 web01 sshd[8339]: Connection closed by authenticating user bob 203.0.113.77 port 30623 [preauth]
+2026-10-27T04:14:00.000000+00:00 web01 sshd[8354]: Failed password for git from 203.0.113.77 port 43123 ssh2
+2026-10-27T04:14:03.000000+00:00 web01 sshd[8354]: Connection closed by authenticating user git 203.0.113.77 port 43123 [preauth]
+2026-10-27T04:15:10.000000+00:00 web01 sshd[8380]: Invalid user backup from 203.0.113.77 port 32659
+2026-10-27T04:15:12.000000+00:00 web01 sshd[8380]: Failed password for invalid user backup from 203.0.113.77 port 32659 ssh2
+2026-10-27T04:15:13.000000+00:00 web01 sshd[8380]: Connection closed by invalid user backup 203.0.113.77 port 32659 [preauth]
+2026-10-27T04:15:21.000000+00:00 web01 sshd[8399]: Invalid user backup from 203.0.113.77 port 51636
+2026-10-27T04:15:23.000000+00:00 web01 sshd[8399]: Failed password for invalid user backup from 203.0.113.77 port 51636 ssh2
+2026-10-27T04:15:24.000000+00:00 web01 sshd[8399]: Connection closed by invalid user backup 203.0.113.77 port 51636 [preauth]
+2026-10-27T04:17:00.000000+00:00 web01 sshd[8925]: Disconnected from user bob 198.51.100.11 port 41604
+2026-10-27T05:00:00.000000+00:00 web01 sshd[8424]: Invalid user admin from 192.0.2.10 port 60139
+2026-10-27T05:00:02.000000+00:00 web01 sshd[8424]: Failed password for invalid user admin from 192.0.2.10 port 60139 ssh2
+2026-10-27T05:00:03.000000+00:00 web01 sshd[8424]: Connection closed by invalid user admin 192.0.2.10 port 60139 [preauth]
+2026-10-27T05:00:20.000000+00:00 web01 sshd[8432]: Invalid user admin from 192.0.2.10 port 35901
+2026-10-27T05:00:22.000000+00:00 web01 sshd[8432]: Failed password for invalid user admin from 192.0.2.10 port 35901 ssh2
+2026-10-27T05:00:23.000000+00:00 web01 sshd[8432]: Connection closed by invalid user admin 192.0.2.10 port 35901 [preauth]
+2026-10-27T05:04:00.000000+00:00 web01 sshd[8447]: Invalid user admin from 192.0.2.11 port 35055
+2026-10-27T05:04:02.000000+00:00 web01 sshd[8447]: Failed password for invalid user admin from 192.0.2.11 port 35055 ssh2
+2026-10-27T05:04:03.000000+00:00 web01 sshd[8447]: Connection closed by invalid user admin 192.0.2.11 port 35055 [preauth]
+2026-10-27T05:04:20.000000+00:00 web01 sshd[8484]: Invalid user admin from 192.0.2.11 port 31014
+2026-10-27T05:04:22.000000+00:00 web01 sshd[8484]: Failed password for invalid user admin from 192.0.2.11 port 31014 ssh2
+2026-10-27T05:04:23.000000+00:00 web01 sshd[8484]: Connection closed by invalid user admin 192.0.2.11 port 31014 [preauth]
+2026-10-27T05:08:00.000000+00:00 web01 sshd[8491]: Invalid user admin from 192.0.2.12 port 62567
+2026-10-27T05:08:02.000000+00:00 web01 sshd[8491]: Failed password for invalid user admin from 192.0.2.12 port 62567 ssh2
+2026-10-27T05:08:03.000000+00:00 web01 sshd[8491]: Connection closed by invalid user admin 192.0.2.12 port 62567 [preauth]
+2026-10-27T05:08:20.000000+00:00 web01 sshd[8497]: Invalid user admin from 192.0.2.12 port 44131
+2026-10-27T05:08:22.000000+00:00 web01 sshd[8497]: Failed password for invalid user admin from 192.0.2.12 port 44131 ssh2
+2026-10-27T05:08:23.000000+00:00 web01 sshd[8497]: Connection closed by invalid user admin 192.0.2.12 port 44131 [preauth]
+2026-10-27T05:12:00.000000+00:00 web01 sshd[8534]: Invalid user admin from 192.0.2.13 port 59771
+2026-10-27T05:12:02.000000+00:00 web01 sshd[8534]: Failed password for invalid user admin from 192.0.2.13 port 59771 ssh2
+2026-10-27T05:12:03.000000+00:00 web01 sshd[8534]: Connection closed by invalid user admin 192.0.2.13 port 59771 [preauth]
+2026-10-27T05:12:20.000000+00:00 web01 sshd[8538]: Invalid user admin from 192.0.2.13 port 43096
+2026-10-27T05:12:22.000000+00:00 web01 sshd[8538]: Failed password for invalid user admin from 192.0.2.13 port 43096 ssh2
+2026-10-27T05:12:23.000000+00:00 web01 sshd[8538]: Connection closed by invalid user admin 192.0.2.13 port 43096 [preauth]
+2026-10-27T05:16:00.000000+00:00 web01 sshd[8560]: Invalid user admin from 192.0.2.14 port 61640
+2026-10-27T05:16:02.000000+00:00 web01 sshd[8560]: Failed password for invalid user admin from 192.0.2.14 port 61640 ssh2
+2026-10-27T05:16:03.000000+00:00 web01 sshd[8560]: Connection closed by invalid user admin 192.0.2.14 port 61640 [preauth]
+2026-10-27T05:16:20.000000+00:00 web01 sshd[8564]: Invalid user admin from 192.0.2.14 port 57389
+2026-10-27T05:16:22.000000+00:00 web01 sshd[8564]: Failed password for invalid user admin from 192.0.2.14 port 57389 ssh2
+2026-10-27T05:16:23.000000+00:00 web01 sshd[8564]: Connection closed by invalid user admin 192.0.2.14 port 57389 [preauth]
+2026-10-27T05:20:00.000000+00:00 web01 sshd[8573]: Invalid user admin from 192.0.2.15 port 56669
+2026-10-27T05:20:02.000000+00:00 web01 sshd[8573]: Failed password for invalid user admin from 192.0.2.15 port 56669 ssh2
+2026-10-27T05:20:03.000000+00:00 web01 sshd[8573]: Connection closed by invalid user admin 192.0.2.15 port 56669 [preauth]
+2026-10-27T05:20:20.000000+00:00 web01 sshd[8577]: Invalid user admin from 192.0.2.15 port 39537
+2026-10-27T05:20:22.000000+00:00 web01 sshd[8577]: Failed password for invalid user admin from 192.0.2.15 port 39537 ssh2
+2026-10-27T05:20:23.000000+00:00 web01 sshd[8577]: Connection closed by invalid user admin 192.0.2.15 port 39537 [preauth]
+2026-10-27T05:24:00.000000+00:00 web01 sshd[8598]: Invalid user admin from 192.0.2.16 port 51911
+2026-10-27T05:24:02.000000+00:00 web01 sshd[8598]: Failed password for invalid user admin from 192.0.2.16 port 51911 ssh2
+2026-10-27T05:24:03.000000+00:00 web01 sshd[8598]: Connection closed by invalid user admin 192.0.2.16 port 51911 [preauth]
+2026-10-27T05:24:20.000000+00:00 web01 sshd[8611]: Invalid user admin from 192.0.2.16 port 63962
+2026-10-27T05:24:22.000000+00:00 web01 sshd[8611]: Failed password for invalid user admin from 192.0.2.16 port 63962 ssh2
+2026-10-27T05:24:23.000000+00:00 web01 sshd[8611]: Connection closed by invalid user admin 192.0.2.16 port 63962 [preauth]
+2026-10-27T05:28:00.000000+00:00 web01 sshd[8612]: Invalid user admin from 192.0.2.17 port 42199
+2026-10-27T05:28:02.000000+00:00 web01 sshd[8612]: Failed password for invalid user admin from 192.0.2.17 port 42199 ssh2
+2026-10-27T05:28:03.000000+00:00 web01 sshd[8612]: Connection closed by invalid user admin 192.0.2.17 port 42199 [preauth]
+2026-10-27T05:28:20.000000+00:00 web01 sshd[8647]: Invalid user admin from 192.0.2.17 port 48000
+2026-10-27T05:28:22.000000+00:00 web01 sshd[8647]: Failed password for invalid user admin from 192.0.2.17 port 48000 ssh2
+2026-10-27T05:28:23.000000+00:00 web01 sshd[8647]: Connection closed by invalid user admin 192.0.2.17 port 48000 [preauth]
+2026-10-27T05:32:00.000000+00:00 web01 sshd[8681]: Invalid user admin from 192.0.2.18 port 47192
+2026-10-27T05:32:02.000000+00:00 web01 sshd[8681]: Failed password for invalid user admin from 192.0.2.18 port 47192 ssh2
+2026-10-27T05:32:03.000000+00:00 web01 sshd[8681]: Connection closed by invalid user admin 192.0.2.18 port 47192 [preauth]
+2026-10-27T05:32:20.000000+00:00 web01 sshd[8687]: Invalid user admin from 192.0.2.18 port 50515
+2026-10-27T05:32:22.000000+00:00 web01 sshd[8687]: Failed password for invalid user admin from 192.0.2.18 port 50515 ssh2
+2026-10-27T05:32:23.000000+00:00 web01 sshd[8687]: Connection closed by invalid user admin 192.0.2.18 port 50515 [preauth]
+2026-10-27T09:02:00.000000+00:00 web01 sshd[8913]: Accepted publickey for alice from 198.51.100.10 port 61373 ssh2: ED25519 SHA256:ZfthwoKZ2XNf9wmtDxWAkEcn3WCTQ1eUNwP2oqfbxeP
+2026-10-27T09:02:00.000000+00:00 web01 sshd[8913]: pam_unix(sshd:session): session opened for user alice(uid=1000) by alice(uid=0)
+2026-10-27T09:31:00.000000+00:00 web01 sshd[8917]: Accepted password for alice from 192.0.2.150 port 45902 ssh2
+2026-10-27T09:31:00.000000+00:00 web01 sshd[8917]: pam_unix(sshd:session): session opened for user alice(uid=1000) by alice(uid=0)
+2026-10-27T09:32:00.000000+00:00 web01 sshd[8913]: Disconnected from user alice 198.51.100.10 port 61373
+2026-10-27T10:30:00.000000+00:00 web01 sshd[8917]: Disconnected from user alice 192.0.2.150 port 45902
+2026-10-27T10:35:06.894593+00:00 web01 sshd[8964]: Accepted publickey for dave from 198.51.100.12 port 63862 ssh2: ED25519 SHA256:MdXubHC4YHtPsjjEUhYBz1h79FNhT6VpokzFNJgT08z
+2026-10-27T10:35:06.894593+00:00 web01 sshd[8964]: pam_unix(sshd:session): session opened for user dave(uid=1000) by dave(uid=0)
+2026-10-27T11:08:06.894593+00:00 web01 sshd[8964]: Disconnected from user dave 198.51.100.12 port 63862
+2026-10-27T13:05:00.000000+00:00 web01 sshd[8712]: Failed password for deploy from 192.0.2.200 port 46713 ssh2
+2026-10-27T13:05:03.000000+00:00 web01 sshd[8712]: Connection closed by authenticating user deploy 192.0.2.200 port 46713 [preauth]
+2026-10-27T13:05:41.000000+00:00 web01 sshd[8732]: Failed password for deploy from 192.0.2.200 port 55872 ssh2
+2026-10-27T13:05:44.000000+00:00 web01 sshd[8732]: Connection closed by authenticating user deploy 192.0.2.200 port 55872 [preauth]
+2026-10-27T13:06:22.000000+00:00 web01 sshd[8765]: Failed password for deploy from 192.0.2.200 port 57539 ssh2
+2026-10-27T13:06:25.000000+00:00 web01 sshd[8765]: Connection closed by authenticating user deploy 192.0.2.200 port 57539 [preauth]
+2026-10-27T13:07:03.000000+00:00 web01 sshd[8769]: Failed password for deploy from 192.0.2.200 port 50109 ssh2
+2026-10-27T13:07:06.000000+00:00 web01 sshd[8769]: Connection closed by authenticating user deploy 192.0.2.200 port 50109 [preauth]
+2026-10-27T13:07:44.000000+00:00 web01 sshd[8789]: Failed password for deploy from 192.0.2.200 port 46287 ssh2
+2026-10-27T13:07:47.000000+00:00 web01 sshd[8789]: Connection closed by authenticating user deploy 192.0.2.200 port 46287 [preauth]
+2026-10-27T13:08:25.000000+00:00 web01 sshd[8814]: Failed password for deploy from 192.0.2.200 port 58580 ssh2
+2026-10-27T13:08:28.000000+00:00 web01 sshd[8814]: Connection closed by authenticating user deploy 192.0.2.200 port 58580 [preauth]
+2026-10-27T13:09:06.000000+00:00 web01 sshd[8849]: Failed password for deploy from 192.0.2.200 port 46848 ssh2
+2026-10-27T13:09:09.000000+00:00 web01 sshd[8849]: Connection closed by authenticating user deploy 192.0.2.200 port 46848 [preauth]
+2026-10-27T13:09:47.000000+00:00 web01 sshd[8869]: Failed password for deploy from 192.0.2.200 port 43238 ssh2
+2026-10-27T13:09:50.000000+00:00 web01 sshd[8869]: Connection closed by authenticating user deploy 192.0.2.200 port 43238 [preauth]
+2026-10-27T13:11:12.000000+00:00 web01 sshd[8878]: Accepted password for deploy from 192.0.2.200 port 41707 ssh2
+2026-10-27T13:11:12.000000+00:00 web01 sshd[8878]: pam_unix(sshd:session): session opened for user deploy(uid=1000) by deploy(uid=0)
+2026-10-27T13:41:12.000000+00:00 web01 sshd[8878]: Disconnected from user deploy 192.0.2.200 port 41707
+2026-10-27T14:38:58.844613+00:00 web01 sshd[8954]: Accepted publickey for carol from 198.51.100.140 port 62475 ssh2: ED25519 SHA256:dK6DvJCL4eUzQ6o2WwmxKV9SWm4PK2tQbCWaKsUQskv
+2026-10-27T14:38:58.844613+00:00 web01 sshd[8954]: pam_unix(sshd:session): session opened for user carol(uid=1000) by carol(uid=0)
+2026-10-27T14:53:58.844613+00:00 web01 sshd[8954]: Disconnected from user carol 198.51.100.140 port 62475

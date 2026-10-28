@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.ruff_cache/
+hexsentry-demo/
+*_redacted.log
+*_original.log
+*_redaction_map.json
+*_redaction_report.*
+token_geo.csv

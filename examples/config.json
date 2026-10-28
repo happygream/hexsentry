@@ -1,0 +1,5 @@
+{
+  "brute_force": { "failures": 20, "window_min": 5 },
+  "password_spray": { "users": 8 },
+  "odd_hours": { "quiet_start": 23, "quiet_end": 6 }
+}

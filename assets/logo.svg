@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="112" viewBox="0 0 128 112" role="img" aria-label="hexsentry">
+  <title>hexsentry</title>
+  <style>.fg{fill:#0a0a0a} .ac{fill:#e5401f} @media (prefers-color-scheme: dark){.fg{fill:#ededed} .ac{fill:#ff4f2e}}</style>
+  <path class="fg" d="M34.00 4.00 L4.00 56.00 L34.00 108.00 L52.00 108.00 L22.00 56.00 L52.00 4.00 Z"/>
+  <path class="fg" d="M94.00 4.00 L124.00 56.00 L94.00 108.00 L76.00 108.00 L106.00 56.00 L76.00 4.00 Z"/>
+  <path class="ac" d="M37.00 59.00 L53.00 59.00 L64.00 24.00 L75.00 59.00 L91.00 59.00 L91.00 68.00 L67.00 68.00 L64.00 51.00 L61.00 68.00 L37.00 68.00 Z"/>
+</svg>

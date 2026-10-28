@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hexsentry"
+dynamic = ["version"]
+description = "Explainable SSH login anomaly detection that runs on redacted logs. Pairs with hexredact."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Michale McCarthy" }]
+requires-python = ">=3.9"
+dependencies = []
+keywords = ["security", "anomaly-detection", "ssh", "auth-log", "brute-force", "password-spraying",
+            "impossible-travel", "explainable", "privacy", "logs"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Environment :: Console",
+  "Intended Audience :: System Administrators",
+  "Intended Audience :: Information Technology",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Topic :: Security",
+  "Topic :: System :: Logging",
+  "Topic :: System :: Monitoring",
+]
+
+[project.optional-dependencies]
+dev = ["ruff>=0.5"]
+
+[project.urls]
+Homepage = "https://github.com/happygream/hexsentry"
+Issues = "https://github.com/happygream/hexsentry/issues"
+
+[project.scripts]
+hexsentry = "hexsentry.cli:main"
+
+[tool.setuptools.dynamic]
+version = { attr = "hexsentry.__version__" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 135
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "B"]
+ignore = ["E701", "E702", "E741", "B023"]
