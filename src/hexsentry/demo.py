@@ -149,6 +149,7 @@ def generate(seed: int = 7, start: datetime = datetime(2026, 10, 12, tzinfo=time
 def write_demo(out_dir: Path, seed: int = 7) -> Tuple[Path, Path]:
     out_dir.mkdir(parents=True, exist_ok=True)
     log_path, geo_path = out_dir / "demo_auth.log", out_dir / "demo_geoip.csv"
-    log_path.write_text(generate(seed), encoding="utf-8", newline="\n")
-    geo_path.write_text(DEMO_GEOIP, encoding="utf-8", newline="\n")
+    # bytes, not write_text(newline=...), which needs Python 3.10; keeps LF line endings on Windows
+    log_path.write_bytes(generate(seed).encode("utf-8"))
+    geo_path.write_bytes(DEMO_GEOIP.encode("utf-8"))
     return log_path, geo_path
